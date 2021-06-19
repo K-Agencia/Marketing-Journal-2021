@@ -8,9 +8,7 @@ function App() {
   return (
     <div className="App">
       <Nav></Nav>
-      <Container>
         <Catalogo titulo="innovaciones"></Catalogo>
-      </Container>
     </div>
   );
 }

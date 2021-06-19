@@ -1,10 +1,20 @@
 div.b_banner{
+    background: #009BAD;
+    width: 100% !important;
+    margin: 4rem 0;
+    padding: 1rem 0;
+}
+
+div.cont{
     display: flex;
     background: #009BAD;
     justify-content: space-between;
+    align-items: center;
     width: 100% !important;
     color: #fff;
-    margin: 4rem 0;
+}
+.b_text{
+    text-align: left;
 }
 
 .b_text h2{
@@ -18,8 +28,12 @@ div.b_banner{
     bottom: 4rem;
 }
 
+.b_text p{
+    font-size: 27px;
+    bottom: 4rem;
+}
 
 div.b_img img.b_svg{
-    width: 80px;
+    width: 150px;
     box-shadow: 0px 0px 0px !important;
 }
