@@ -1,0 +1,18 @@
+img.p_imagen, iframe.p_video{
+    width: 510px;
+    height: 319px;
+}
+
+img.p_imagen:hover, iframe.p_video:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.pTitulo{
+    margin: 1rem 0;
+}
+
+.modal-body{
+    width: auto;
+    height: auto;
+}

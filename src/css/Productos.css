@@ -1,0 +1,70 @@
+div.p_producto{
+    margin-top: 4rem;
+}
+
+h3.p_titulo {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+span.p_subtitulo{
+    font-size: 16px;
+    font-style: italic;
+}
+
+p.p_descripcion{
+    font-size: 20px;
+    margin: 4rem 0;
+}
+
+h4.p_titulo2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 4rem
+}
+
+div.p_publicidad{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    align-content: space-between;
+}
+div.p_pub{
+    margin: 2rem 0;
+}
+
+img.p_imgPrincipal{
+    width: 100%;
+    height: 100%;
+}
+
+h4.p_fecha{
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 2rem auto;
+}
+
+h4.p_fecha.oral{
+    background: #FF4B00;
+}
+
+h4.p_fecha.personal{
+    background: #A71917;
+}
+
+h4.p_fecha.home{
+    background: #009DA8;
+}
+
+div.linea{
+    height: 1px;
+    background-color: rgb(207, 207, 207);
+  }

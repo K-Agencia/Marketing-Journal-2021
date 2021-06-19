@@ -1,0 +1,49 @@
+[{
+    "Innovaciones": {
+        "Oral": {
+            "titulo": "Lanzamiento Nuevo Régimen Encías Reforzadas",
+            "subtitulo": "Próximamente",
+            "descripcion": "Conoce el nuevo Régimen para el cuidado de tus encías, con protección antibacterial. Úsalos juntos y obtén una salud bucal completa por 12 horas*",
+            "imagenP": "../img/MKT  JOURNAL/KV Zigzag _ MKTJ.jpg",
+            "publicidad": [
+                {
+                    "tipo": "i",
+                    "pTitulo": "Titulo 1",
+                    "pSrc": "../img/Colgate_logo.png"
+                },
+                {
+                    "tipo": "i",
+                    "pTitulo": "Titulo 2",
+                    "pSrc": "../img/Colgate_logo.png"
+                },
+                {
+                    "tipo": "i",
+                    "pTitulo": "Titulo 3",
+                    "pSrc": "../img/Colgate_logo.png"
+                },
+                {
+                    "tipo": "v",
+                    "pTitulo": "Titulo 4",
+                    "pSrc": "https://www.youtube.com/embed/qhfFpl0UQr0"
+                }
+            ]
+        },
+        "Personal": {
+
+        },
+        "Home": {
+
+        }
+    },
+    "Implementaciones": {
+        "Oral": {
+
+        },
+        "Personal": {
+
+        },
+        "Home": {
+
+        }
+    }
+}]
