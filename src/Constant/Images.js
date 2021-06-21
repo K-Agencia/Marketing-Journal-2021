@@ -14,6 +14,9 @@ import KVSS_MKTJ from "../img/MKT  JOURNAL/KV SS_ MKTJ.jpg";
 import KVSuavitel_MKTJ from "../img/MKT  JOURNAL/KV Suavitel_ MKTJ.jpg";
 import KVTotal12_MKTJ from "../img/MKT  JOURNAL/KV Total12 _ MKTJ.jpg";
 
+import error404 from "../img/404.svg";
+import cable from "../img/conect.svg";
+
 export const Images =
 {
     "Logo": LogoColgate,
@@ -30,5 +33,8 @@ export const Images =
     "KVSS_MKTJ": KVSS_MKTJ,
     "KVSuavitel_MKTJ": KVSuavitel_MKTJ,
     "KVTotal12_MKTJ": KVTotal12_MKTJ,
+
+    "error404": error404,
+    "cable": cable,
 
 }

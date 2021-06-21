@@ -1,28 +1,29 @@
 /* body{
     background: darkblue;
 } */
-.Navbar{
+.Navbar {
     display: flex;
     align-items: center;
     background: #fff;
-    margin: -8px;
-    padding: 0;
-    height: 100px;
+
+    padding: 0px;
+    height: 70px;
     justify-content: space-around;
-    box-shadow: 0px 4px 4px #75757540;
+
+    /* box-shadow: 0px 4px 4px #75757540; */
 }
 
-.n-logo{
-    width: 6%;
-    height: 100%;
-    margin: 0;
+.n-logo {
+    width: 5%;
+    margin-top: -25px;
+    margin-left: 50px;
 }
 
-.n-logo img{
+.n-logo img {
     width: 100%;
 }
 
-.n-logoMTJ{
+.n-logoMTJ {
     width: 10%;
     height: 100%;
     margin: 0 0rem;
@@ -32,24 +33,25 @@
     align-items: center;
 }
 
- .n-logoMTJ img{
+.n-logoMTJ img {
     width: 100%;
 }
 
-.direccionar{
+.direccionar {
     display: flex;
     justify-content: space-between;
     align-self: flex-end;
     width: 800px;
     margin: 0 0;
+    margin-bottom: -16px;
 }
 
-.direccionar div.navSecction{
+.direccionar div.navSecction {
     display: flex;
     flex-direction: column;
     align-content: space-between;
     justify-content: space-between;
-    height: 50px;
+    height: 70px;
     width: 300px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -57,48 +59,49 @@
     margin: 0 1rem;
 }
 
-.direccionar div.navSecction.Innovaciones{
+.direccionar div.navSecction.Innovaciones {
     background: #009BAD;
 }
 
-.direccionar div.navSecction.Implementaciones{
+.direccionar div.navSecction.Implementaciones {
     background: #9A0D13;
 }
 
-.direccionar div.navSecction.ParticipaYGana{
+.direccionar div.navSecction.ParticipaYGana {
     background: #FE2629;
 }
 
-div.navSecction div.buttons{
+div.navSecction div.buttons {
     display: flex;
     margin-top: 0.3rem;
     justify-content: space-between;
 }
 
-button.n-button{
+button.n-button {
     background-color: transparent !important;
     border: 0px;
 }
 
-button:hover{
+button:hover {
     transform: scale(1.15);
     transition-duration: 0.2s;
 }
 
-.cabecera button{
+.cabecera button {
     color: #fff;
     font-size: 17px;
     font-weight: 700;
 }
 
-.buttons button{
+.buttons .n-button a, .cabecera .n-button a{
     color: #fff;
     font-weight: 500;
+    text-decoration: none;
 }
 
-div.vertical-line{
+div.vertical-line {
     width: 1px;
     background-color: #f3f3f3;
     height: 100%;
     float: left;
-  }
+}

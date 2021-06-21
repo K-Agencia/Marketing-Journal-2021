@@ -1,14 +1,15 @@
 import './App.css';
 import Nav from './Components/Nav';
-import Catalogo from './Components/Catalogo';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
+import Routers from './Components/Routers';
+import Top from './Components/Top';
 
 function App() {
   return (
     <div className="App">
       <Nav></Nav>
-        <Catalogo titulo="innovaciones"></Catalogo>
+      <Routers></Routers>
+      <Top></Top>
     </div>
   );
 }

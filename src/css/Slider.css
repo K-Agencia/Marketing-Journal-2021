@@ -1,0 +1,12 @@
+/* Swiper{
+    height: 150px;
+} */
+img.img_slider{
+    width: 120%;
+    margin: 1rem;
+}
+
+img.img_slider:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}

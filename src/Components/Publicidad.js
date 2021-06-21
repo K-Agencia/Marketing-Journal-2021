@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/Publicidad.css';
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 
@@ -31,7 +30,7 @@ const Publicidad = ({ pTitulo, pSrc, tipo }) => {
         return (
             <div>
                 <h4 className="pTitulo">{pTitulo}</h4>
-                <iframe className="p_video" src={pSrc} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                <iframe className="p_video" src={pSrc} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>
         );
 

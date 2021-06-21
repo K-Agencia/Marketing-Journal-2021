@@ -1,6 +1,6 @@
 import { Images } from "./Images";
 let i = 0;
-let j;
+// let j;
 
 export const banner =[
     {
@@ -27,25 +27,25 @@ export const innovaciones_oral = [
         imagenP: `${Images.KVZigzag_MKTJ}`,
         publicidad: [
             {
-                _idP: j = 0,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 1",
                 pSrc: `${Images.KVAxion_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 2",
                 pSrc: `${Images.KVHC_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 3",
                 pSrc: `${Images.KVPtx_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "v",
                 pTitulo: "Titulo 4",
                 pSrc: 'https://www.youtube.com/embed/qhfFpl0UQr0',
@@ -61,25 +61,25 @@ export const innovaciones_oral = [
         imagenP: `${Images.KVPtxjabón_MKTJ}`,
         publicidad: [
             {
-                _idP: j = 0,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 1",
                 pSrc: `${Images.KVTotal12_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "v",
                 pTitulo: "Titulo 2",
                 pSrc: "https://www.youtube.com/embed/qhfFpl0UQr0",
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 3",
                 pSrc: `${Images.KVSuavitel_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 4",
                 pSrc: `${Images.KVSS_MKTJ}`,
@@ -99,25 +99,25 @@ export const innovaciones_personal = [
         imagenP: `${Images.KVZigzag_MKTJ}`,
         publicidad: [
             {
-                _idP: j = 0,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 1",
                 pSrc: `${Images.KVAxion_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 2",
                 pSrc: `${Images.KVHC_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 3",
                 pSrc: `${Images.KVPtx_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "v",
                 pTitulo: "Titulo 4",
                 pSrc: 'https://www.youtube.com/embed/qhfFpl0UQr0',
@@ -136,25 +136,25 @@ export const innovaciones_home = [
         imagenP: `${Images.KVPtxjabón_MKTJ}`,
         publicidad: [
             {
-                _idP: j = 0,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 1",
                 pSrc: `${Images.KVTotal12_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "v",
                 pTitulo: "Titulo 2",
                 pSrc: "https://www.youtube.com/embed/qhfFpl0UQr0",
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 3",
                 pSrc: `${Images.KVSuavitel_MKTJ}`,
             },
             {
-                _idP: j++,
+                _idP: i++,
                 tipo: "i",
                 pTitulo: "Titulo 4",
                 pSrc: `${Images.KVSS_MKTJ}`,

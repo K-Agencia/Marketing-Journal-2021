@@ -32,7 +32,8 @@ const Productos = ({ titulo, tipo }) => {
             {data.map(prod => (
 
                 <div key={prod._id} className="p_producto">
-                    <h4 className={`p_fecha ${tipo}`}>{prod.fecha}</h4>
+
+                    <h4 id={prod._id} className={`p_fecha ${tipo}`}>{prod.fecha}</h4>
                     <h3 className="p_titulo">{prod.titulo}</h3>
                     <span className="p_subtitulo">{prod.subtitulo}</span>
                     <p className="p_descripcion">{prod.descripcion}</p>
@@ -45,7 +46,7 @@ const Productos = ({ titulo, tipo }) => {
                             </div>
                         ))}
                     </div>
-                    <div class="linea"></div>
+                    <div className="linea"></div>
                 </div>
             ))}
             

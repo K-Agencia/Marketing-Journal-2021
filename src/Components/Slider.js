@@ -1,4 +1,6 @@
 import React from 'react';
+import { innovaciones_oral, innovaciones_personal, innovaciones_home, implementaciones_oral, implementaciones_personal, implementaciones_home } from '../Constant/Marketing';
+import '../css/Slider.css';
 
 // Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';         // Importar los componentes de Swiper React
@@ -7,30 +9,49 @@ import 'swiper/components/navigation/navigation.scss'; // Importar el CSS de los
 import 'swiper/components/pagination/pagination.scss';
 import 'swiper/components/scrollbar/scrollbar.scss';
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';   // import Swiper core and required modules
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);      // install Swiper modules
 
-const Slider = () => {
+const getArray = (titulo, tipo) => {
+    let cadena = `${titulo}_${tipo}`;
+    console.log(cadena);
+
+    if (cadena === "innovaciones_oral") {
+        return innovaciones_oral;
+    } else if (cadena === "innovaciones_personal") {
+        return innovaciones_personal;
+    } else if (cadena === "innovaciones_home") {
+        return innovaciones_home;
+    } else if (cadena === "implementaciones_oral") {
+        return implementaciones_oral;
+    } else if (cadena === "implementaciones_personal") {
+        return implementaciones_personal;
+    } else if (cadena === "implementaciones_home") {
+        return implementaciones_home;
+    }
+}
+
+const Slider = ({ titulo, tipo }) => {
+
+    const data = getArray(titulo, tipo);
+
     return (
 
 
-            <Swiper
+        <Swiper
             spaceBetween={50} //Espacio entre las diapositivas
-            slidesPerView={6} //Cantidad de diapositivas en pantalla
+            slidesPerView={5} //Cantidad de diapositivas en pantalla
             navigation
-            
-            /*onSlideChange={() => console.log('slide change')} //Comando para indicar que hubo un cambio de slider
-            onSwiper={(swiper) => console.log(swiper)}
-            width="150" height="150" 
-            */
         >
-
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-            </Swiper>
+            {data.map(prod_img => (
+                <SwiperSlide key={prod_img._id}>
+                    <a href={`#${prod_img._id}`}>
+                        <img className="img_slider" src={prod_img.imagenP} alt="" />
+                    </a>
+                </SwiperSlide>
+            ))}
+        </Swiper>
 
     );
 };
