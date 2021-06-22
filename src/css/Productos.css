@@ -42,6 +42,14 @@ img.p_imgPrincipal{
     height: 100%;
 }
 
+@media only screen and (max-width: 770px){
+    img.p_imgPrincipal{
+        width: 100%;
+        height: 100%;
+        margin: 0 2em;
+    }
+}
+
 h4.p_fecha{
     width: 200px;
     padding: 1rem;

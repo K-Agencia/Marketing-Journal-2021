@@ -4,6 +4,8 @@ import LogoMTJ from "../img/Logo_Marketing.png";
 import Innovacion from "../img/innovacion.svg";
 import Implementaciones from "../img/Implementaciones.svg";
 
+import Flecha from "../img/right-arrow.svg";
+
 // -------------------------------------------------
 import KVZigzag_MKTJ from "../img/MKT  JOURNAL/KV Zigzag _ MKTJ.jpg";
 import KVAxion_MKTJ from "../img/MKT  JOURNAL/KV Axion_ MKTJ.jpg";
@@ -24,6 +26,8 @@ export const Images =
 
     "Innovacion": Innovacion,
     "Implementaciones": Implementaciones,
+
+    "Flecha": Flecha,
 
     "KVZigzag_MKTJ": KVZigzag_MKTJ,
     "KVAxion_MKTJ": KVAxion_MKTJ,

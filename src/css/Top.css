@@ -1,0 +1,36 @@
+.scroll-to-top.visible{
+    position: fixed;
+    bottom: 16px;
+    right: 2%;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #A71917;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-to-top{
+    visibility: hidden;
+}
+
+.scroll-to-top:hover{
+    transform: scale(1.09);
+    transition: 0.3s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+img.imgIcono{
+    width: 30px;
+}
+
+@keyframes scrollTop{
+    from{
+        transform: translateY(2px);
+    }
+    to{
+        transform: translateY(-1px);
+    }
+}

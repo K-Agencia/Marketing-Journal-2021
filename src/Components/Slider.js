@@ -15,7 +15,6 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);      // install Swipe
 
 const getArray = (titulo, tipo) => {
     let cadena = `${titulo}_${tipo}`;
-    console.log(cadena);
 
     if (cadena === "innovaciones_oral") {
         return innovaciones_oral;

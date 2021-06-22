@@ -37,3 +37,33 @@ div.b_img img.b_svg{
     width: 150px;
     box-shadow: 0px 0px 0px !important;
 }
+
+@media only screen and (max-width: 770px) { 
+    .b_text{
+        text-align: left;
+        width: 70%;
+    }
+    
+    .b_text h2{
+        font-weight: 700;
+        font-size: 10px;        
+    }
+    
+    .b_text span{
+        font-style: italic;
+        font-size: 14px;
+        bottom: 4rem;
+    }
+    
+    .b_text p{
+        font-size: 27px;
+        bottom: 4rem;
+    }
+
+    div.b_img img.b_svg{
+        width: 150px;
+        box-shadow: 0px 0px 0px !important;
+    }
+ }
+
+/* @media (min-width: 320px) { ... } */
