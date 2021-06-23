@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Marketing-Journal/static/css/main.24b03991.chunk.css",
+    "main.js": "/Marketing-Journal/static/js/main.07f46bcd.chunk.js",
+    "main.js.map": "/Marketing-Journal/static/js/main.07f46bcd.chunk.js.map",
+    "runtime-main.js": "/Marketing-Journal/static/js/runtime-main.090ef0e3.js",
+    "runtime-main.js.map": "/Marketing-Journal/static/js/runtime-main.090ef0e3.js.map",
+    "static/css/2.feb9571e.chunk.css": "/Marketing-Journal/static/css/2.feb9571e.chunk.css",
+    "static/js/2.88feb499.chunk.js": "/Marketing-Journal/static/js/2.88feb499.chunk.js",
+    "static/js/2.88feb499.chunk.js.map": "/Marketing-Journal/static/js/2.88feb499.chunk.js.map",
+    "index.html": "/Marketing-Journal/index.html",
+    "static/css/2.feb9571e.chunk.css.map": "/Marketing-Journal/static/css/2.feb9571e.chunk.css.map",
+    "static/css/main.24b03991.chunk.css.map": "/Marketing-Journal/static/css/main.24b03991.chunk.css.map",
+    "static/js/2.88feb499.chunk.js.LICENSE.txt": "/Marketing-Journal/static/js/2.88feb499.chunk.js.LICENSE.txt",
+    "static/media/404.e5278d6c.svg": "/Marketing-Journal/static/media/404.e5278d6c.svg",
+    "static/media/Implementaciones.d441e507.svg": "/Marketing-Journal/static/media/Implementaciones.d441e507.svg",
+    "static/media/KV Axion_ MKTJ.43a2bed5.jpg": "/Marketing-Journal/static/media/KV Axion_ MKTJ.43a2bed5.jpg",
+    "static/media/KV HC_ MKTJ.dcd036ac.jpg": "/Marketing-Journal/static/media/KV HC_ MKTJ.dcd036ac.jpg",
+    "static/media/KV Ptx jabón_ MKTJ.8024d92e.jpg": "/Marketing-Journal/static/media/KV Ptx jabón_ MKTJ.8024d92e.jpg",
+    "static/media/KV Ptx_ MKTJ.79c25b78.jpg": "/Marketing-Journal/static/media/KV Ptx_ MKTJ.79c25b78.jpg",
+    "static/media/KV SS_ MKTJ.edfdfe8f.jpg": "/Marketing-Journal/static/media/KV SS_ MKTJ.edfdfe8f.jpg",
+    "static/media/KV Suavitel_ MKTJ.433f0779.jpg": "/Marketing-Journal/static/media/KV Suavitel_ MKTJ.433f0779.jpg",
+    "static/media/KV Total12 _ MKTJ.0e39924c.jpg": "/Marketing-Journal/static/media/KV Total12 _ MKTJ.0e39924c.jpg",
+    "static/media/KV Zigzag _ MKTJ.58e09487.jpg": "/Marketing-Journal/static/media/KV Zigzag _ MKTJ.58e09487.jpg",
+    "static/media/Logo_Marketing.0fab38b9.png": "/Marketing-Journal/static/media/Logo_Marketing.0fab38b9.png",
+    "static/media/conect.ec489474.svg": "/Marketing-Journal/static/media/conect.ec489474.svg",
+    "static/media/innovacion.d1395af8.svg": "/Marketing-Journal/static/media/innovacion.d1395af8.svg",
+    "static/media/right-arrow.1e2f3c60.svg": "/Marketing-Journal/static/media/right-arrow.1e2f3c60.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.090ef0e3.js",
+    "static/css/2.feb9571e.chunk.css",
+    "static/js/2.88feb499.chunk.js",
+    "static/css/main.24b03991.chunk.css",
+    "static/js/main.07f46bcd.chunk.js"
+  ]
+}
