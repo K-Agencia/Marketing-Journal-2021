@@ -2,9 +2,10 @@ import React from 'react';
 import { Images } from '../Constant/Images';
 import "./../css/Nav.css";
 
+
 const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-lg shadow-sm p-3 mb-5 bg-white">
+        <nav className="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm shadow-sm bg-white">
              <div className="container-fluid Navb">{/*className="Navbar" shadow-lg  href="innovaciones"*/}
                 <div className="n-logo">
                     <img src={Images.Logo} alt="" />
