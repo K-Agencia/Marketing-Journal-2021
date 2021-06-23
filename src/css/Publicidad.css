@@ -1,6 +1,8 @@
 img.p_imagen, iframe.p_video{
-    width: 510px;
-    height: 319px;
+    /* width: 510px;
+    height: 319px; */
+    width: 25%;
+    height: 25%;
 }
 
 img.p_imagen:hover, iframe.p_video:hover{
