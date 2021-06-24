@@ -38,6 +38,7 @@ const Productos = ({ titulo, tipo }) => {
                     <span className="p_subtitulo">{prod.subtitulo}</span>
                     <p className="p_descripcion">{prod.descripcion}</p>
                     <img className="p_imgPrincipal" src={prod.imagenP} alt="" />
+                    <img className="p_imgPrincipal" src={prod.imagenP2} alt="" />
                     <h4 className="p_titulo2">Canales de publicidad</h4>
                     <div className="p_publicidad">
                         {prod.publicidad.map(pub => (

@@ -13,11 +13,11 @@ const Publicidad = ({ pTitulo, pSrc, tipo }) => {
     if (tipo === 'i') {
 
         return (
-            <div>
+            <div className="pub_producto">
                 <h4 className="pTitulo">{pTitulo}</h4>
                 <img className="p_imagen" src={pSrc} alt="" onClick={handleShow} />
 
-                <Modal show={show} onHide={handleClose} size="xl" centered>
+                <Modal show={show} onHide={handleClose} size="xl" className="modalCenter">
                     <Modal.Body>
                         <img className="img-fluid" src={pSrc} alt="" />
                     </Modal.Body>
@@ -28,7 +28,7 @@ const Publicidad = ({ pTitulo, pSrc, tipo }) => {
     } else {
 
         return (
-            <div>
+            <div className="pub_producto">
                 <h4 className="pTitulo">{pTitulo}</h4>
                 <iframe className="p_video" src={pSrc} title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </div>

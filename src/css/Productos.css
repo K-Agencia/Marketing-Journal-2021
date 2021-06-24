@@ -27,15 +27,20 @@ h4.p_titulo2{
 }
 
 div.p_publicidad{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 2rem 0;
-    align-content: space-between;
+    align-content: space-between; */
+    display: grid;
+    gap: 1rem;
+    /* grid-auto-rows: 22rem; */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 25rem), 1fr));
+    margin: 1em auto 5em;
 }
 div.p_pub{
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 img.p_imgPrincipal{
