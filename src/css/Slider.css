@@ -10,3 +10,16 @@ img.img_slider:hover{
     transform: scale(1.03);
     transition: 0.5s;
 }
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    /* background: #009DA8; */
+    padding: 22px 30px 16px;
+    border-radius: 100%;
+    height: 90px;
+    z-index: 100;
+    margin: 0 3rem;
+}

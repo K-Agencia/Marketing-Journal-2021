@@ -224,12 +224,12 @@ export const innovaciones_personal = [
         descripcion: "Nueva presentación de desodorantes, ahora en tubos de 70 gr de fácil aplicación y prácticos de llevar",
         imagenP: `${Images.Desodorante}`,
         publicidad: [
-            {
-                _idP: j++,
-                tipo: "v",
-                pTitulo: "TVC",
-                pSrc: 'https://www.youtube.com/embed/qhfFpl0UQr0',
-            },
+            // {
+            //     _idP: j++,
+            //     tipo: "v",
+            //     pTitulo: "TVC",
+            //     pSrc: 'https://www.youtube.com/embed/qhfFpl0UQr0',
+            // },
             // {
             //     _idP: j++,
             //     tipo: "v",
@@ -364,7 +364,7 @@ export const implementaciones_oral = [
             {
                 _idP: j++,
                 tipo: "i",
-                pTitulo: "Titulo 4",
+                pTitulo: "Punto de venta",
                 pSrc: `${Images.Naturals_PVenta1}`,
             }
         ]

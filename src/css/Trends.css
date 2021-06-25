@@ -1,0 +1,11 @@
+.Body_Trends{
+    background: teal;
+    width: 1fr;
+    height: 1fr;
+}
+
+.buttonsTrends{
+    position: relative;
+    bottom: 20rem;
+    z-index: 500;
+}

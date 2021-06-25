@@ -16,7 +16,7 @@
     right: 0;
     z-index: 100;
 
-   box-shadow: 0px 4px 4px #75757540; 
+    box-shadow: 0px 4px 4px #75757540;
 }
 
 .n-logo {
@@ -95,11 +95,12 @@ button:hover {
 
 .cabecera button {
     color: #fff;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 700;
 }
 
-.buttons .n-button a, .cabecera .n-button a{
+.buttons .n-button a,
+.cabecera .n-button a {
     color: #fff;
     font-weight: 500;
     text-decoration: none;
@@ -112,49 +113,51 @@ div.vertical-line {
     float: left;
 }
 
-@media only screen and (max-width: 770px) { 
+@media only screen and (max-width: 770px) {
     .Navb {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
 
         background: #fff;
         padding: 0px;
         height: 100px;
-        width: 100%;
-        
+        width: 768px;
+
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         z-index: 100;
-    
-       box-shadow: 0px 4px 4px #75757540; 
+
+        box-shadow: 0px 4px 4px #75757540;
     }
 
     .n-logo {
-        width: 200px;
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 20px;
     }
-    
+
     .n-logo img {
         width: 100%;
     }
-    
+
     .n-logoMTJ {
         width: 200px;
         height: 100%;
-        margin: 0 0rem;
-        right: 1px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        margin: 0 10px 0 20px;
+        right: 1px;
     }
-    
+
     .n-logoMTJ img {
         width: 100%;
     }
-    
+
     .direccionar {
         display: flex;
         justify-content: space-between;
@@ -174,5 +177,70 @@ div.vertical-line {
         border-top-right-radius: 1rem;
         padding: 0.5rem 1rem;
         margin: 0 0.05rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Navb {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        background: #fff;
+        padding: 0px;
+        height: 80px;
+        width: 100%;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+
+        box-shadow: 0px 4px 4px #75757540;
+    }
+
+    .n-logo {
+        width: 70px;
+        margin-left: 10px;
+        margin-right: 10;
+    }
+
+    .n-logo img {
+        width: 100%;
+    }
+
+    .n-logoMTJ {
+        width: 50px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0 10px 0 20px;
+        right: 1px;
+    }
+
+    .n-logoMTJ img {
+        width: 100%;
+    }
+
+    .direccionar {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .direccionar div.navSecction {
+
+        width: 250px;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        padding: 0.5rem 1rem;
+        margin: 0 0.05rem;
+    }
+
+    div.navSecction div.buttons {
+        display: none;
     }
 }
