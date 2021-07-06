@@ -33,11 +33,11 @@ const Nav = () => {
 
                         </div>
                     </div>
-                    {/* <div className="navSecction ParticipaYGana">
+                    <div className="navSecction ParticipaYGana">
                     <div className="cabecera">
-                        <button className="n-button"><a href={`https://colgate.kagencia.com/emailing/Welcome`}>PARTICIPA Y GANA</a></button>
+                        <button className="n-button"><a href={`/trends`}>TRENDS</a></button>
                     </div>
-                </div> */}
+                </div>
                 </div>
                 <div className="n-logoMTJ">
                     <img src={Images.LogoMTJ} alt="" />

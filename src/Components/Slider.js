@@ -34,13 +34,14 @@ const getArray = (titulo, tipo) => {
 const Slider = ({ titulo, tipo }) => {
 
     const data = getArray(titulo, tipo);
+    let resolucion = window.screen.width;
 
     return (
 
 
         <Swiper
-            spaceBetween={50} //Espacio entre las diapositivas
-            slidesPerView={5} //Cantidad de diapositivas en pantalla
+            spaceBetween={resolucion < 480 ? 120 : 50} //Espacio entre las diapositivas
+            slidesPerView={resolucion < 480 ? 1 : 5} //Cantidad de diapositivas en pantalla
             navigation
         >
             {data.map(prod_img => (

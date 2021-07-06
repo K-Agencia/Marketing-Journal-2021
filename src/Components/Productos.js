@@ -34,7 +34,7 @@ const Productos = ({ titulo, tipo }) => {
                 <div key={prod._id} className="p_producto">
 
                     <h4 id={prod._id} className={`p_fecha ${tipo}`}>{prod.fecha}</h4>
-                    <h3 className="p_titulo">{prod.titulo}</h3>
+                    <h3 className={`p_titulo ${tipo}`}>{prod.titulo}</h3>
                     <span className="p_subtitulo">{prod.subtitulo}</span>
                     <p className="p_descripcion">{prod.descripcion}</p>
                     <img className="p_imgPrincipal" src={prod.imagenP} alt="" />

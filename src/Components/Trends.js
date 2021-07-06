@@ -18,7 +18,6 @@ const Trends = () => {
 
     return (
         <div className="Body_Trends">
-            <div>Trends</div>
             <div className="container" ref={container}></div>
             <div className="buttonsTrends">
                 <button>Media</button>

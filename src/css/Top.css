@@ -5,7 +5,7 @@
     width: 70px;
     height: 70px;
     border-radius: 100%;
-    background: #A71917;
+    background: #df1b16;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -32,5 +32,13 @@ img.imgIcono{
     }
     to{
         transform: translateY(-1px);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .scroll-to-top.visible{
+        width: 50px;
+        height: 50px;
+        right: 2em;
     }
 }

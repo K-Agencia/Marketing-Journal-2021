@@ -7,7 +7,7 @@
     background: #fff;
 
     padding: 0px;
-    height: 100px;
+    height: 80px;
     justify-content: space-around;
 
     position: fixed;
@@ -227,17 +227,19 @@ div.vertical-line {
 
     .direccionar {
         display: flex;
-        width: 250px;
-        margin-left: -7.3rem;
+        flex-direction: column;
+        width: 50px;
+        margin-left: -8rem;
     }
 
     .direccionar div.navSecction {
-
-        width: 250px;
-        height: 50px;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-        padding: 0.5rem 1rem;
+        width: 200px;
+        height: 1.5em;
+        margin: 0.08em;
+        /* border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem; */
+        border-radius: 1rem;
+        padding:0px;
     }
 
     div.navSecction div.buttons {

@@ -27,197 +27,108 @@ export const Images =
     "falta": falta,
 
     // Colgate total 12
-    "Total12_Principal": "https://i.ibb.co/d6hBbVx/KV-Total12-MKTJ.jpg",
-    "Total12_Minegocio": "https://i.ibb.co/Vp1XsTg/Total12-Minegocio.png",
-    "Total12_Puntoventa": "https://i.ibb.co/4F79gW3/Total12-Punto-de-venta.jpg",
-    "Total12_Poster": "https://i.ibb.co/3CGwh1g/Total12.jpg",
-    "Total12_Tapabocas": "https://i.ibb.co/S5DhLxM/Usa-el-tapabocas.jpg",
+    "Total12_Principal": "https://i.ibb.co/C8SXx96/KV-Total12-MKTJ.jpg",
+    "Total12_Minegocio": "https://i.ibb.co/VCCc077/Total12-Minegocio.jpg",
+    "Total12_Puntoventa": "https://i.ibb.co/nLLfqQk/Total12-Punto-de-venta.jpg",
+    "Total12_Poster": "https://i.ibb.co/0M1KL3D/Total12.jpg",
+    "Total12_Tapabocas": "https://i.ibb.co/Tt2mSr4/Usa-el-tapabocas.jpg",
 
     // Zig Zag
-    "Zigzag_Principal": "https://i.ibb.co/9r9yLFJ/KV-Zigzag-MKTJ.jpg",
-    "Zigzag_Poster": "https://i.ibb.co/mhh67Tw/ZigZag.jpg",
-    "Zigzag_Cenefa": "https://i.ibb.co/CbhPmL2/Zig-Zag-cenefa.jpg",
-    "Zigzag_Cenefa2": "https://i.ibb.co/YbvwQ0C/Zig-Zag-cenefa-2.jpg",
+    "Zigzag_Principal": "https://i.ibb.co/QNkC0yH/KV-Zigzag-MKTJ.jpg",
+    "Zigzag_Poster": "https://i.ibb.co/z29wCqg/ZigZag.jpg",
+    "Zigzag_Cenefa": "https://i.ibb.co/7QHrNJL/Zig-Zag-cenefa.jpg",
+    "Zigzag_Cenefa2": "https://i.ibb.co/LhK4ZCp/Zig-Zag-cenefa-2.jpg",
 
     //CURCUMA
-    "Curcuma_PVenta1": "https://i.ibb.co/kSnr79L/C-rcuma-punto-venta.png",
-    "Curcuma_PVenta2": "https://i.ibb.co/vXWXWgd/C-rcuma-punto-venta2.png",
-    "Curcuma_PVenta3": "https://i.ibb.co/6Pk84x4/C-rcuma-punto-venta3.png",
-    "Curcuma_PVenta4": "https://i.ibb.co/R09QM2z/C-rcuma-punto-venta4.jpg",
-    "Curcuma_Principal": "https://i.ibb.co/1KpX48g/C-rcuma.jpg",
+    "Curcuma_PVenta1": "https://i.ibb.co/F8D33Pj/C-rcuma-punto-venta.jpg",
+    "Curcuma_PVenta2": "https://i.ibb.co/WgLCd9Z/C-rcuma-punto-venta2.jpg",
+    "Curcuma_PVenta3": "https://i.ibb.co/kXgn2sF/C-rcuma-punto-venta3.jpg",
+    "Curcuma_PVenta4": "https://i.ibb.co/zN93s5M/C-rcuma-punto-venta4.jpg",
+    "Curcuma_Principal": "https://i.ibb.co/ZxxGK1b/C-rcuma.jpg",
 
     // COLGATE ZERO
-    "Zero_Principal": "https://i.ibb.co/H774nqf/Zero.jpg",
-    "Zero_PVenta1": "https://i.ibb.co/kHtqfrH/Zero-Punto-de-venta.jpg",
+    "Zero_Principal": "https://i.ibb.co/J50g6b2/Zero.jpg",
+    "Zero_PVenta1": "https://i.ibb.co/sJqV8Dp/Zero-Punto-de-venta.jpg",
 
 
     // PERSONAL CARE
     // PROTEX
-    "JabonProtex": "https://i.ibb.co/fryTFm7/KV-Ptx-jab-n-MKTJ.jpg",
-    "ManosProtex": "https://i.ibb.co/JCdtcP5/KV-Ptx-MKTJ.jpg",
-    "Palmolive": "https://i.ibb.co/7YYR4Dc/KV-PO-MKTJ.jpg",
-    "Desodorante": "https://i.ibb.co/RhqbcmH/KV-SS-MKTJ.jpg",
+    "JabonProtex": "https://i.ibb.co/bP7W70F/KV-Ptx-jab-n-MKTJ.jpg",
+    "ManosProtex": "https://i.ibb.co/Yk0f0f3/KV-Ptx-MKTJ.jpg",/////////////////////////////////////////////////////
+    "Palmolive": "https://i.ibb.co/CWcVBxC/KV-PO-MKTJ.jpg",
+    "Desodorante": "https://i.ibb.co/CsWwdKX/KV-SS-MKTJ.jpg",
 
     // HOME CARE
     // CUIDA EL PLANETA
-    "CPlaneta_Principal": "https://i.ibb.co/XbG0Wfx/KV-HC-MKTJ.jpg",
-    "CPlaneta_PVenta1": "https://i.ibb.co/fnL7qF6/Home-care-Punto-de-venta.jpg",
-    "CPlaneta_PVenta2": "https://i.ibb.co/095TZ3S/Home-care-Punto-de-venta2.png",
-    "CPlaneta_PVenta3": "https://i.ibb.co/7vY9kzX/Zero-Punto-de-venta2.jpg",
+    "CPlaneta_Principal": "https://i.ibb.co/JzZSpBg/KV-HC-MKTJ.jpg",
+    "CPlaneta_PVenta1": "https://i.ibb.co/Cb9cXzX/Home-care-Punto-de-venta.jpg",
+    "CPlaneta_PVenta2": "https://i.ibb.co/C7LPwL7/Home-care-Punto-de-venta2.jpg",
+    "CPlaneta_PVenta3": "https://i.ibb.co/BZXyWKK/Zero-Punto-de-venta2.jpg",
 
     // SUAVITEL
-    "Suavitel_Principal": "https://i.ibb.co/Ykxk5n1/KV-Suavitel-MKTJ.jpg",
-    "Suavitel_PVenta1": "https://i.ibb.co/k3q7xyp/Suavitel-Punto-venta.png",
-    "Suavitel_PVenta2": "https://i.ibb.co/2SS3mgX/Suavitel-Punto-venta2.png",
-    "Suavitel_Poster": "https://i.ibb.co/JKyT8Vw/Suavitel.jpg",
+    "Suavitel_Principal": "https://i.ibb.co/4p9T2ZN/KV-Suavitel-MKTJ.jpg",
+    "Suavitel_PVenta1": "https://i.ibb.co/0nTc0nY/Suavitel-Punto-venta.jpg",
+    "Suavitel_PVenta2": "https://i.ibb.co/jMvypsV/Suavitel-Punto-venta2.jpg",
+    "Suavitel_Poster": "https://i.ibb.co/WDRvh5J/Suavitel.jpg",
 
     // AXION
-    "Axion_Principal": "https://i.ibb.co/CBgB3y9/KV-Axion-MKTJ.jpg",
-    "Axion_Cenefa": "https://i.ibb.co/2jbvmvQ/Axion-cenefa.png",
-    "Axion_Poster": "https://i.ibb.co/fnrJskN/Axion.jpg",
-    "Axion_PosterAxion": "https://i.ibb.co/zPd2Vns/Axion2.jpg",
-
+    "Axion_Principal": "https://i.ibb.co/1Kk0Rv5/KV-Axion-MKTJ.jpg",
+    "Axion_Cenefa": "https://i.ibb.co/Gtvm5Hn/Axion-cenefa.jpg",
+    "Axion_Poster": "https://i.ibb.co/N3dJvrQ/Axion.jpg",
+    "Axion_PosterAxion": "https://i.ibb.co/58PY5FZ/Axion2.jpg",
+   
     // IMPLEMENTACIONES
 
     // ORAL CARE
     // NATURALS
-    "Naturals_Principal": "https://i.ibb.co/yyC45YJ/Colgate-Naturals.jpg",
-    "Naturals_PVenta1": "https://i.ibb.co/VScXy3K/Naturals-Punto-venta.png",
-
+    "Naturals_Principal": "https://i.ibb.co/wYNBrNx/Colgate-Naturals.jpg",
+    "Naturals_PVenta1": "https://i.ibb.co/WF8ZQ1b/Naturals-Punto-venta.jpg",
+    
     // TOTAL 12 GUMS
-    "Total12Gums_Aeropuerto2": "https://i.ibb.co/f0jHJ7s/Gums-Aeropuerto2.jpg",
-    "Total12Gums_PVenta1": "https://i.ibb.co/TwqLnTb/Gums-Punto-venta.png",
-    "Total12Gums_Principal": "https://i.ibb.co/5shCKCB/KV-GUMS.jpg",
-    "Total12Gums_Aeropuerto1": "https://i.ibb.co/41jqrST/Gums-Aeropuerto.jpg",
-
+    "Total12Gums_Aeropuerto2": "https://i.ibb.co/VSkFWBr/Gums-Aeropuerto2.jpg",
+    "Total12Gums_PVenta1": "https://i.ibb.co/9wDkrjm/Gums-Punto-venta.jpg",
+    "Total12Gums_Principal": "https://i.ibb.co/pzxQvfm/KV-GUMS.jpg",
+    "Total12Gums_Aeropuerto1": "https://i.ibb.co/fkVZSY5/Gums-Aeropuerto.jpg",
+    
     // SPRAY
-    "Spray_Principal": "https://i.ibb.co/6t58f78/Banner-T12-Spray-750x344.jpg",
-    "Spray_PVenta1": "https://i.ibb.co/f90D42K/Spray-T12-Punt-Venta.png",
-
+    "Spray_Principal": "https://i.ibb.co/3dbytZX/Banner-T12-Spray-750x344.jpg",
+    "Spray_PVenta1": "https://i.ibb.co/zxGtqZ1/Spray-T12-Punt-Venta.jpg",
+    
     //PERSONAL CARE
     // PROTEX DUO
-    "PDuo_Principal": "https://i.ibb.co/pQCBwqs/Banner-Farmatodo-Duo-Protect.jpg",
-    "PDuo_PVenta1": "https://i.ibb.co/1Zpc95z/duo-protect-punto-venta.png",
-    "PDuo_Implementacion1": "https://i.ibb.co/6yCQSSn/Protex-implement.png",
-    "PDuo_Implementacion2": "https://i.ibb.co/cx8Mpvh/Protex-implement2.png",
-
+    "PDuo_Principal": "https://i.ibb.co/0fVtGfY/Banner-Farmatodo-Duo-Protect.jpg",
+    "PDuo_PVenta1": "https://i.ibb.co/K9hbDGs/duo-protect-punto-venta.jpg",
+    "PDuo_Implementacion1": "https://i.ibb.co/LdP6hZG/Protex-implement.jpg",
+    "PDuo_Implementacion2": "https://i.ibb.co/M7nvqhj/Protex-implement2.jpg",
+    
     // PALMOLIVE CARBON
-    "PCarbon_Principal": "https://i.ibb.co/RjL6tF3/Kv-palmolive.jpg",
-    "PCarbon_PVenta1": "https://i.ibb.co/Tt1xQcR/Palmolive-punto-venta.png",
-
+    "PCarbon_Principal": "https://i.ibb.co/VMf61t9/Kv-palmolive.jpg",
+    "PCarbon_PVenta1": "https://i.ibb.co/Q9S40MK/Palmolive-punto-venta.jpg",
+    
     // PALMOLIVE LIQUIDO
-    "PLiquido_Principal": "https://i.ibb.co/9hL32SL/KV-palmolive-l-quido.png",
-    "PLiquido_PVenta1": "https://i.ibb.co/9Hpr87g/palmolive-punto-2.png",
+    "PLiquido_Principal": "https://i.ibb.co/ZKp7gC9/KV-palmolive-l-quido.jpg",
+    "PLiquido_PVenta1": "https://i.ibb.co/ZxY55dj/palmolive-punto-2.jpg",  
 
     // CLINICAL 360
-    "Clinical360_PVenta1": "https://i.ibb.co/6rs6xCk/desodorante-Punto-venta.png",
-    "Clinical360_Principal": "https://i.ibb.co/Tkvwv7y/KV-Desodorantes.png",
-    "Clinical360_Valla1": "https://i.ibb.co/p3960XP/LSS-Valla.png",
-    "Clinical360_Valla2": "https://i.ibb.co/FxCzdvB/Valla-MSS.png",
-    "Clinical360_BanerDuo": "https://i.ibb.co/cbMmJVn/Banner-Duo-Protect-Clinico.png",
-    "Clinical360_CelCep": "https://i.ibb.co/P4Dqv3k/Cel-CP.png",
-    "Clinical360_Implementacion": "https://i.ibb.co/HgPcmTr/Implementation-Ecommerce.png",
+    "Clinical360_PVenta1": "https://i.ibb.co/7r0fSPg/desodorante-Punto-venta.jpg",
+    "Clinical360_Principal": "https://i.ibb.co/F8tRGw1/KV-Desodorantes.jpg",
+    "Clinical360_Valla1": "https://i.ibb.co/kccWXFq/LSS-Valla.jpg",
+    "Clinical360_Valla2": "https://i.ibb.co/1LWTXMW/Valla-MSS.jpg",
+    "Clinical360_BanerDuo": "https://i.ibb.co/80dvzj3/Banner-Duo-Protect-Clinico.jpg",
+    "Clinical360_CelCep": "https://i.ibb.co/3BS2sWK/Cel-CP.jpg",
+    "Clinical360_Implementacion": "https://i.ibb.co/crS9GYc/Implementation-Ecommerce.jpg",
 
     // ERES BARBARA
-    "Clinical360_KeyVisual1": "https://i.ibb.co/YD7fgNX/LSS-KV.png",
-    "Clinical360_KeyVisual2": "https://i.ibb.co/k29nH5H/LSS-KV2.png",
+    "Clinical360_KeyVisual1": "https://i.ibb.co/yyNmj2x/LSS-KV.jpg",
+    "Clinical360_KeyVisual2": "https://i.ibb.co/YhgrFg2/LSS-KV2.jpg",
 
     // FABULOSO
-    "Fabuloso_Principal": "https://i.ibb.co/P99j7vw/KV-Fabuloso-Ultra.png",
-    "Fabuloso_PVenta": "https://i.ibb.co/ZY5f73h/Fabuloso-Punto-venta.png",
-
+    "Fabuloso_Principal": "https://i.ibb.co/sPmSQjT/KV-Fabuloso-Ultra.jpg",
+    "Fabuloso_PVenta": "https://i.ibb.co/GxqMpNj/Fabuloso-Punto-venta.jpg",
+    
     // AJAX
-    "Ajax_Principal": "https://i.ibb.co/Bs6ySNK/KV-Ajax.png",
-    "Ajax_PVenta1": "https://i.ibb.co/44xsGCK/Ajax-Punto-venta.png",
-    "Ajax_PVenta2": "https://i.ibb.co/Wn5tkMr/HC-Punto-venta.png",
+    "Ajax_Principal": "https://i.ibb.co/4gFyyTj/KV-Ajax.jpg",
+    "Ajax_PVenta1": "https://i.ibb.co/F0dkNL8/Ajax-Punto-venta.jpg",
+    "Ajax_PVenta2": "https://i.ibb.co/xFNgTvv/HC-Punto-venta.jpg",
+    
 }
-/*
-// AXION
-"Axion_Principal" : "https://i.ibb.co/CBgB3y9/KV-Axion-MKTJ.jpg",
-"Axion_Cenefa" : "https://i.ibb.co/2jbvmvQ/Axion-cenefa.png",
-"Axion_Poster" : "https://i.ibb.co/fnrJskN/Axion.jpg",
-"Axion_PosterAxion" : "https://i.ibb.co/zPd2Vns/Axion2.jpg",
-
-CUIDAPLANETA
-
-PVENTA 1 - https://i.ibb.co/fnL7qF6/Home-care-Punto-de-venta.jpg
-PVENTA 2 - https://i.ibb.co/095TZ3S/Home-care-Punto-de-venta2.png
-P - https://i.ibb.co/XbG0Wfx/KV-HC-MKTJ.jpg
-PVENTA 3 - https://i.ibb.co/7vY9kzX/Zero-Punto-de-venta2.jpg
-
-CURCUMA
-PVENTA 1 - https://i.ibb.co/kSnr79L/C-rcuma-punto-venta.png
-PVENTA 2 - https://i.ibb.co/vXWXWgd/C-rcuma-punto-venta2.png
-PVENTA 3 - https://i.ibb.co/6Pk84x4/C-rcuma-punto-venta3.png
-PVENTA 4 - https://i.ibb.co/R09QM2z/C-rcuma-punto-venta4.jpg
-P - https://i.ibb.co/1KpX48g/C-rcuma.jpg
-
-TOTAL 12
-P - https://i.ibb.co/d6hBbVx/KV-Total12-MKTJ.jpg
-MI NEGOCIO - https://i.ibb.co/Vp1XsTg/Total12-Minegocio.png
-PVENTA - https://i.ibb.co/4F79gW3/Total12-Punto-de-venta.jpg
-POSTER - https://i.ibb.co/3CGwh1g/Total12.jpg
-TAPABOCAS - https://i.ibb.co/S5DhLxM/Usa-el-tapabocas.jpg
-
-ZIG-ZAG
-P - https://i.ibb.co/9r9yLFJ/KV-Zigzag-MKTJ.jpg
-PORTER - https://i.ibb.co/mhh67Tw/ZigZag.jpg
-CENEFA -https://i.ibb.co/CbhPmL2/Zig-Zag-cenefa.jpg
-
-// SUAVITEL
-P - https://i.ibb.co/Ykxk5n1/KV-Suavitel-MKTJ.jpg
-PV1 - https://i.ibb.co/k3q7xyp/Suavitel-Punto-venta.png
-PV2 - https://i.ibb.co/2SS3mgX/Suavitel-Punto-venta2.png
-POS - https://i.ibb.co/JKyT8Vw/Suavitel.jpg
-
-// AJAX
-"Ajax_Principal" : "https://i.ibb.co/Bs6ySNK/KV-Ajax.png",
-"Ajax_PVenta1" : "https://i.ibb.co/44xsGCK/Ajax-Punto-venta.png",
-"Ajax_PVenta2" : "https://i.ibb.co/Wn5tkMr/HC-Punto-venta.png",
-
-// NATURALS
-"Naturals_Principal" : "https://i.ibb.co/yyC45YJ/Colgate-Naturals.jpg",
-"Naturals_PVenta1" : "https://i.ibb.co/VScXy3K/Naturals-Punto-venta.png",
-
-// TOTAL 12 GUMS
-"Total12Gums_Aeropuerto2" : "https://i.ibb.co/f0jHJ7s/Gums-Aeropuerto2.jpg",
-"Total12Gums_PVenta1" : "https://i.ibb.co/TwqLnTb/Gums-Punto-venta.png",
-"Total12Gums_Principal" : "https://i.ibb.co/5shCKCB/KV-GUMS.jpg",
-"Total12Gums_Aeropuerto1" : "https://i.ibb.co/41jqrST/Gums-Aeropuerto.jpg",
-
-// SPRAY
-"Spray_Principal" : "https://i.ibb.co/6t58f78/Banner-T12-Spray-750x344.jpg",
-"Spray_PVenta1" : "https://i.ibb.co/f90D42K/Spray-T12-Punt-Venta.png",
-
-// PROTEX DUO
-"PDuo_Principal" : "https://i.ibb.co/pQCBwqs/Banner-Farmatodo-Duo-Protect.jpg",
-"PDuo_PVenta1" : "https://i.ibb.co/1Zpc95z/duo-protect-punto-venta.png",
-"PDuo_Implwmwntacion1" : "https://i.ibb.co/6yCQSSn/Protex-implement.png",
-"PDuo_Implwmwntacion2" : "https://i.ibb.co/cx8Mpvh/Protex-implement2.png",
-
-// PALMOLIVE CARBON
-"PCarbon_Principal" : "https://i.ibb.co/RjL6tF3/Kv-palmolive.jpg",
-"PCarbon_PVenta1" : "https://i.ibb.co/Tt1xQcR/Palmolive-punto-venta.png",
-
-// PALMOLIVE LIQUIDO
-"PLiquido_Principal" : "https://i.ibb.co/9hL32SL/KV-palmolive-l-quido.png",
-"PLiquido_PVenta1" : "https://i.ibb.co/9Hpr87g/palmolive-punto-2.png",
-
-// CLINICAL 360
-"Clinical360_PVenta1" : "https://i.ibb.co/6rs6xCk/desodorante-Punto-venta.png",
-"Clinical360_Principal" : "https://i.ibb.co/Tkvwv7y/KV-Desodorantes.png",
-"Clinical360_KeyVisual1" : "https://i.ibb.co/YD7fgNX/LSS-KV.png",
-"Clinical360_KeyVisual2" : "https://i.ibb.co/k29nH5H/LSS-KV2.png",
-"Clinical360_Valla1" : "https://i.ibb.co/p3960XP/LSS-Valla.png",
-"Clinical360_Valla2" : "https://i.ibb.co/FxCzdvB/Valla-MSS.png" ,
-"Clinical360_BanerDuo" : "https://i.ibb.co/cbMmJVn/Banner-Duo-Protect-Clinico.png",
-"Clinical360_CelCep" : "https://i.ibb.co/P4Dqv3k/Cel-CP.png",
-"Clinical360_Implementacion" : "https://i.ibb.co/HgPcmTr/Implementation-Ecommerce.png",
-
-// FABULOSO
-"Fabuloso_Principal" : "https://i.ibb.co/P99j7vw/KV-Fabuloso-Ultra.png",
-"Fabuloso_PVenta" : "https://i.ibb.co/ZY5f73h/Fabuloso-Punto-venta.png",
-
-
-
-*/

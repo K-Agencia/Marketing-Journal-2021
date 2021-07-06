@@ -1,4 +1,4 @@
-import { faPlaceOfWorship } from "@fortawesome/free-solid-svg-icons";
+
 import { Images } from "./Images";
 let i = 0;
 let j = 1000;
@@ -307,12 +307,12 @@ export const innovaciones_home = [
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Suavitel_Poster}`,
             },
-            {
-                _idP: j++,
-                tipo: "v",
-                pTitulo: "Titulo 4",
-                pSrc: 'https://www.youtube.com/embed/qhfFpl0UQr0',
-            }
+            // {
+            //     _idP: j++,
+            //     tipo: "v",
+            //     pTitulo: "Titulo 4",
+            //     pSrc: 'https://www.youtube.com/embed/qhfFpl0UQr0',
+            // }
         ]
     },
     {
