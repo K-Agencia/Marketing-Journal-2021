@@ -2,25 +2,72 @@
     background: #d6d6d6;
 } */
 
-.Body_Trends{
-    margin: 5rem;
+.Body_Trends {
     width: 1fr;
     height: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #d6d6d6;
 }
 
-.buttonsTrends{
+.Body_Trends_animacion {
+    width: 1300px;
+    height: 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d6d6d6;
     position: relative;
-    bottom: 20rem;
+    bottom: 230px;
+}
+
+div.container_trends {
+    margin: 5rem;
+    width: 50%;
+    height: 50%;
+}
+
+div.container_trends_titulo{
+    width: 300px;
+    z-index: 10;
+}
+
+.buttonsTrends {
+    position: relative;
     z-index: 500;
 }
 
-.buttonsTrends button{
-padding: 1rem;
-border-radius: 10rem;
-background: #df1b16;
-font-weight: 800;
-color: #fff;
-border: 0;
-margin: 0 10rem;
-
+.buttonsTrends button {
+    width: 300px;
+    padding: 25px 35px;
+    border-radius: 10em;
+    background: rgba(149, 147, 146, 0.50);
+    font-weight: 500;
+    color: #fff;
+    border: 0;
+    font-size: 1.7em;
 }
+
+.buttonsTrends button:hover {
+    background: #df1b16;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.boton1{
+    position: relative;
+    left: 150px;
+}
+
+.boton2{
+    position: relative;
+    right: 150px;
+}
+
+@media only screen and (max-width: 480px) {
+    .container{
+      padding: 0px 2em !important;
+    }
+  }
+  
