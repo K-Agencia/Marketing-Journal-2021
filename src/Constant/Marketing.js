@@ -29,6 +29,7 @@ export const innovaciones_oral = [
         2. Disponibilidad en las tiendas de barrio/bodegas 
         3. Nuevo Claim: Economía + Protección
         `,
+        imagenMiniatura: `${Images.Total12_Miniaturas}`,
         imagenP: `${Images.Total12_Principal}`,
         publicidad: [
             {
@@ -69,6 +70,7 @@ export const innovaciones_oral = [
         titulo: "Cepillo Dental Zig Zag Charcoal ",
         subtitulo: "",
         descripcion: "El nuevo cepillo Zig Zag Charcoal cuenta con cerdas con infusión de carbón activado en forma de V que remueven las bacterias que causan el mal olor.",
+        imagenMiniatura: `${Images.Zigzag_Miniaturas}`,
         imagenP: `${Images.Zigzag_Principal}`,
         publicidad: [
             {
@@ -97,6 +99,7 @@ export const innovaciones_oral = [
         titulo: "Crema Dental Colgate Natural Extracts Cúrcuma",
         subtitulo: "Próximamente",
         descripcion: "La fórmula de la Crema Dental Natural Extracts Limpieza Profunda, contiene extractos de cúrcuma que remueven las bacterias de tu boca, mientras la limpia profundamente dejando un sabor refrescante a yerbabuena.",
+        imagenMiniatura: `${Images.Curcuma_Miniaturas}`,
         imagenP: `${Images.Curcuma_Principal}`,
         publicidad: [
             {
@@ -131,6 +134,7 @@ export const innovaciones_oral = [
         titulo: "Crema Dental Colgate Zero",
         subtitulo: "Próximamente",
         descripcion: "La nueva Crema Dental Colgate Zero es 0% Artificial, siendo libre de Saborizantes, Endulzantes, Colorantes y Conservantes. Además, cuenta con una fórmula en Gel Transparente con sabor a menta y hierbabuena.",
+        imagenMiniatura: `${Images.Zero_Miniaturas}`,
         imagenP: `${Images.Zero_Principal}`,
         publicidad: [
             {
@@ -150,6 +154,7 @@ export const innovaciones_personal = [
         titulo: "Protex Tamaño Familiar 1.3L",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.JabonProtex_Miniaturas}`,
         imagenP: `${Images.JabonProtex}`,
         publicidad: [
             {
@@ -166,6 +171,7 @@ export const innovaciones_personal = [
         titulo: "El Poder de Las Manos",
         subtitulo: "Próximamente",
         descripcion: "",
+        imagenMiniatura: `${Images.ManosProtex_Miniaturas}`,
         imagenP: `${Images.ManosProtex}`,
         publicidad: [
             {
@@ -194,6 +200,7 @@ export const innovaciones_personal = [
         titulo: "Relanzamiento de Palmolive",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.Palmolive_Miniaturas}`,
         imagenP: `${Images.Palmolive}`,
         publicidad: [
             {
@@ -222,6 +229,7 @@ export const innovaciones_personal = [
         titulo: "Lanzamiento Speed Stick Xtreme Night Gel 70 gr y Lady Speed Stick Talc en Crema 70 gr",
         subtitulo: "Próximamente",
         descripcion: "Nueva presentación de desodorantes, ahora en tubos de 70 gr de fácil aplicación y prácticos de llevar",
+        imagenMiniatura: `${Images.Desodorante_Miniaturas}`,
         imagenP: `${Images.Desodorante}`,
         publicidad: [
             // {
@@ -253,6 +261,7 @@ export const innovaciones_home = [
         titulo: "Home Care Naturals",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.CPlaneta_Miniaturas}`,
         imagenP: `${Images.CPlaneta_Principal}`,
         publicidad: [
             {
@@ -287,6 +296,7 @@ export const innovaciones_home = [
         titulo: "Suavitel Jazmín & Eucalipto",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.Suavitel_Miniaturas}`,
         imagenP: `${Images.Suavitel_Principal}`,
         publicidad: [
             {
@@ -321,6 +331,7 @@ export const innovaciones_home = [
         titulo: "Axion Antibacterial Pasta",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.Axion_Miniaturas}`,
         imagenP: `${Images.Axion_Principal}`,
         publicidad: [
             {
@@ -359,6 +370,7 @@ export const implementaciones_oral = [
         titulo: "Relanzamiento Naturals",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.Naturals_Miniaturas}`,
         imagenP: `${Images.Naturals_Principal}`,
         publicidad: [
             {
@@ -375,6 +387,7 @@ export const implementaciones_oral = [
         titulo: "Total 12 Gums Régimen",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.Total12Gums_Miniaturas}`,
         imagenP: `${Images.Total12Gums_Principal}`,
         publicidad: [
             {
@@ -403,6 +416,7 @@ export const implementaciones_oral = [
         titulo: "Mouthwash Spray Total 12",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.Spray_Miniaturas}`,
         imagenP: `${Images.Spray_Principal}`,
         publicidad: [
             {
@@ -422,6 +436,7 @@ export const implementaciones_personal = [
         titulo: "Protex Duo Protect",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.PDuo_Miniaturas}`,
         imagenP: `${Images.PDuo_Principal}`,
         publicidad: [
             {
@@ -438,6 +453,7 @@ export const implementaciones_personal = [
         titulo: "PTX HWC Vaccination",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.falta}`,
         imagenP: `${Images.falta}`,
         publicidad: [
             {
@@ -460,6 +476,7 @@ export const implementaciones_personal = [
         titulo: "PON Charcoal",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.PCarbon_Miniaturas}`,
         imagenP: `${Images.PCarbon_Principal}`,
         publicidad: [
             {
@@ -476,6 +493,7 @@ export const implementaciones_personal = [
         titulo: "PON Luminous Oils",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.PLiquido_Miniaturas}`,
         imagenP: `${Images.PLiquido_Principal}`,
         publicidad: [
             {
@@ -492,6 +510,7 @@ export const implementaciones_personal = [
         titulo: "Speed Stick y Leidy Speed Stick Clinical 360",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.Clinical360_Miniaturas}`,
         imagenP: `${Images.Clinical360_Principal}`,
         publicidad: [
             {
@@ -544,6 +563,7 @@ export const implementaciones_personal = [
         titulo: "Eres Barbara",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.EresBarbara_Miniaturas}`,
         imagenP: `${Images.Clinical360_KeyVisual1}`,
         imagenP2: `${Images.Clinical360_KeyVisual2}`,
         publicidad: [
@@ -576,6 +596,7 @@ export const implementaciones_home = [
         titulo: "Fabuloso AAC Ultra Desinfectante",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.Fabuloso_Miniaturas}`,
         imagenP: `${Images.Fabuloso_Principal}`,
         publicidad: [
             {
@@ -592,6 +613,7 @@ export const implementaciones_home = [
         titulo: "Ajax Kitchen",
         subtitulo: "",
         descripcion: "",
+        imagenMiniatura: `${Images.Ajax_Miniaturas}`,
         imagenP: `${Images.Ajax_Principal}`,
         publicidad: [
             {

@@ -47,7 +47,7 @@ const Slider = ({ titulo, tipo }) => {
             {data.map(prod_img => (
                 <SwiperSlide key={prod_img._id}>
                     <a href={`#${prod_img._id}`}>
-                        <img className="img_slider" src={prod_img.imagenP} alt="" />
+                        <img className="img_slider" src={prod_img.imagenMiniatura} alt="" />
                     </a>
                 </SwiperSlide>
             ))}

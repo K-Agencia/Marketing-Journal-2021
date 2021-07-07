@@ -11,6 +11,281 @@ import cable from "../img/conect.svg";
 
 import falta from "../img/falta.jpg";
 
+// MINIATURAS
+import Total12_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Total12-_-MKTJ.jpg";
+import Zigzag_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Zigzag-_-MKTJ.jpg";
+import Curcuma_Miniaturas from "../img/MKTJOURNAL/miniaturas/Curcuma.jpg";
+import Zero_Miniaturas from "../img/MKTJOURNAL/miniaturas/Zero.jpg";
+import JabonProtex_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV_Ptx_jabon.jpg";
+import ManosProtex_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Ptx_-MKTJ.jpg";
+import Palmolive_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-PO_-MKTJ.jpg";
+import Desodorante_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-SS_-MKTJ.jpg";
+import CPlaneta_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-HC_-MKTJ.jpg";
+import Suavitel_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Suavitel_-MKTJ.jpg";////////////////////////////
+import Axion_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Axion_-MKTJ.jpg";
+import Naturals_Miniaturas from "../img/MKTJOURNAL/miniaturas/Colgate-Naturals.jpg";
+import Total12Gums_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-GUMS.jpg";
+import Spray_Miniaturas from "../img/MKTJOURNAL/miniaturas/Banner-T12-Spray.jpg";
+import PDuo_Miniaturas from "../img/MKTJOURNAL/miniaturas/Banner-Farmatodo_Duo-Protect.jpg";
+import PCarbon_Miniaturas from "../img/MKTJOURNAL/miniaturas/Kv-palmolive.jpg";
+import PLiquido_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-palmolive-liquido.jpg";
+import Clinical360_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Desodorantes.jpg";
+import EresBarbara_Miniaturas from "../img/MKTJOURNAL/miniaturas/LSS-KV.jpg";
+import Fabuloso_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Fabuloso-Ultra.jpg";
+import Ajax_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Ajax.jpg";
+
+// Colgate total 12
+import Total12_Principal from "../img/MKTJOURNAL/Total12/KV-Total12-_-MKTJ.jpg";
+import Total12_Minegocio from "../img/MKTJOURNAL/Total12/Total12-Punto-de-venta.jpg";
+import Total12_Puntoventa from "../img/MKTJOURNAL/Total12/Total12-Minegocio.jpg";
+import Total12_Poster from "../img/MKTJOURNAL/Total12/Total12.jpg";
+import Total12_Tapabocas from "../img/MKTJOURNAL/Total12/Usa-el-tapabocas.jpg";
+
+// Zig Zag
+import Zigzag_Principal from "../img/MKTJOURNAL/ZigZag/KV-Zigzag-_-MKTJ.jpg";
+import Zigzag_Poster from "../img/MKTJOURNAL/ZigZag/ZigZag.jpg";
+import Zigzag_Cenefa from "../img/MKTJOURNAL/ZigZag/ZigZag-cenefa.jpg";
+import Zigzag_Cenefa2 from "../img/MKTJOURNAL/ZigZag/ZigZag-cenefa-2.jpg";
+
+//CURCUMA
+import Curcuma_PVenta1 from "../img/MKTJOURNAL/Curcuma/Curcuma-punto-venta.jpg";
+import Curcuma_PVenta2 from "../img/MKTJOURNAL/Curcuma/Curcuma-punto-venta2.jpg";
+import Curcuma_PVenta3 from "../img/MKTJOURNAL/Curcuma/Curcuma-punto-venta3.jpg";
+import Curcuma_PVenta4 from "../img/MKTJOURNAL/Curcuma/Curcuma-punto-venta4.jpg";
+import Curcuma_Principal from "../img/MKTJOURNAL/Curcuma/Curcuma.jpg";
+
+// COLGATE ZERO
+import Zero_Principal from "../img/MKTJOURNAL/Colgate0/Zero.jpg";
+import Zero_PVenta1 from "../img/MKTJOURNAL/Colgate0/Zero-Punto-de-venta.jpg";
+
+
+// PERSONAL CARE
+// PROTEX
+import JabonProtex from "../img/MKTJOURNAL/KV_Ptx_jabon.jpg";
+import ManosProtex from "../img/MKTJOURNAL/KV-Ptx_-MKTJ.jpg";
+import Palmolive from "../img/MKTJOURNAL/KV-PO_-MKTJ.jpg";
+import Desodorante from "../img/MKTJOURNAL/KV-SS_-MKTJ.jpg";
+
+// HOME CARE
+// CUIDA EL PLANETA
+import CPlaneta_Principal from "../img/MKTJOURNAL/CuidaPlaneta/KV-HC_-MKTJ.jpg";
+import CPlaneta_PVenta1 from "../img/MKTJOURNAL/CuidaPlaneta/Home-care-Punto-de-venta.jpg";
+import CPlaneta_PVenta2 from "../img/MKTJOURNAL/CuidaPlaneta/Home-care-Punto-de-venta2.jpg";
+import CPlaneta_PVenta3 from "../img/MKTJOURNAL/CuidaPlaneta/Zero-Punto-de-venta2.jpg";
+
+// SUAVITEL
+import Suavitel_Principal from "../img/MKTJOURNAL/Suavitel/KV-Suavitel_-MKTJ.jpg";
+import Suavitel_PVenta1 from "../img/MKTJOURNAL/Suavitel/Suavitel-Punto-venta.jpg";
+import Suavitel_PVenta2 from "../img/MKTJOURNAL/Suavitel/Suavitel-Punto-venta2.jpg";
+import Suavitel_Poster from "../img/MKTJOURNAL/Suavitel/Suavitel.jpg";
+
+// AXION
+import Axion_Principal from "../img/MKTJOURNAL/Axion/KV-Axion_-MKTJ.jpg";
+import Axion_Cenefa from "../img/MKTJOURNAL/Axion/Axion-cenefa.jpg";
+import Axion_Poster from "../img/MKTJOURNAL/Axion/Axion.jpg";
+import Axion_PosterAxion from "../img/MKTJOURNAL/Axion/Axion2.jpg";
+
+// IMPLEMENTACIONES
+
+// ORAL CARE
+// NATURALS
+import Naturals_Principal from "../img/MKTJOURNAL/Naturals/Colgate-Naturals.jpg";
+import Naturals_PVenta1 from "../img/MKTJOURNAL/Naturals/Naturals-Punto-venta.jpg";
+
+// TOTAL 12 GUMS
+import Total12Gums_Aeropuerto2 from "../img/MKTJOURNAL/Total12Gums/Gums-Aeropuerto2.jpg";
+import Total12Gums_PVenta1 from "../img/MKTJOURNAL/Total12Gums/Gums-Punto-venta.jpg";
+import Total12Gums_Principal from "../img/MKTJOURNAL/Total12Gums/KV-GUMS.jpg";
+import Total12Gums_Aeropuerto1 from "../img/MKTJOURNAL/Total12Gums/Gums-Aeropuerto.jpg";
+
+// SPRAY
+import Spray_Principal from "../img/MKTJOURNAL/Spray/Banner-T12-Spray-750x344.jpg";
+import Spray_PVenta1 from "../img/MKTJOURNAL/Spray/Spray-T12-Punt-Venta.jpg";
+
+//PERSONAL CARE
+// PROTEX DUO
+import PDuo_Principal from "../img/MKTJOURNAL/Protex/Banner-Farmatodo_Duo-Protect.jpg";
+import PDuo_PVenta1 from "../img/MKTJOURNAL/Protex/duo-protect-punto-venta.jpg";
+import PDuo_Implementacion1 from "../img/MKTJOURNAL/Protex/Protex-implement.jpg";
+import PDuo_Implementacion2 from "../img/MKTJOURNAL/Protex/Protex-implement2.jpg";
+
+// PALMOLIVE CARBON
+import PCarbon_Principal from "../img/MKTJOURNAL/Charcoal/Kv-palmolive.jpg";
+import PCarbon_PVenta1 from "../img/MKTJOURNAL/Charcoal/Palmolive-punto-venta.jpg";
+
+// PALMOLIVE LIQUIDO
+import PLiquido_Principal from "../img/MKTJOURNAL/Palmolive/KV-palmolive-liquido.jpg";
+import PLiquido_PVenta1 from "../img/MKTJOURNAL/Palmolive/palmolive-punto-2.jpg";
+
+// CLINICAL 360
+import Clinical360_PVenta1 from "../img/MKTJOURNAL/Clinical/desodorante-Punto-venta.jpg";
+import Clinical360_Principal from "../img/MKTJOURNAL/Clinical/KV-Desodorantes.jpg";
+import Clinical360_Valla1 from "../img/MKTJOURNAL/Clinical/LSS-Valla.jpg";
+import Clinical360_Valla2 from "../img/MKTJOURNAL/Clinical/Valla-MSS.jpg";
+import Clinical360_BanerDuo from "../img/MKTJOURNAL/Clinical/Banner-Duo-Protect---Clinico.jpg";
+import Clinical360_CelCep from "../img/MKTJOURNAL/Clinical/Cel-CP.jpg";
+import Clinical360_Implementacion from "../img/MKTJOURNAL/Clinical/Implementation-Ecommerce.jpg";
+
+// ERES BARBARA
+import Clinical360_KeyVisual1 from "../img/MKTJOURNAL/Clinical/LSS-KV.jpg";
+import Clinical360_KeyVisual2 from "../img/MKTJOURNAL/Clinical/LSS-KV2.jpg";
+
+// FABULOSO
+import Fabuloso_Principal from "../img/MKTJOURNAL/Fabuloso/KV-Fabuloso-Ultra.jpg";
+import Fabuloso_PVenta from "../img/MKTJOURNAL/Fabuloso/Fabuloso-Punto-venta.jpg";
+
+// AJAX
+import Ajax_Principal from "../img/MKTJOURNAL/Ajax/KV-Ajax.jpg";
+import Ajax_PVenta1 from "../img/MKTJOURNAL/Ajax/Ajax-Punto-venta.jpg";
+import Ajax_PVenta2 from "../img/MKTJOURNAL/Ajax/HC-Punto-venta.jpg";
+
+export const Images = {
+    "Logo": LogoColgate,
+    "LogoMTJ": LogoMTJ,
+
+    "Innovacion": Innovacion,
+    "Implementaciones": Implementaciones,
+
+    "Flecha": Flecha,
+
+    "error404": error404,
+    "cable": cable,
+
+    "falta": falta,
+
+    //MINIATURAS
+
+    "Total12_Miniaturas": Total12_Miniaturas,
+    "Zigzag_Miniaturas": Zigzag_Miniaturas,
+    "Curcuma_Miniaturas": Curcuma_Miniaturas,
+    "Zero_Miniaturas": Zero_Miniaturas,
+    "JabonProtex_Miniaturas": JabonProtex_Miniaturas,
+    "ManosProtex_Miniaturas": ManosProtex_Miniaturas,
+    "Palmolive_Miniaturas": Palmolive_Miniaturas,
+    "Desodorante_Miniaturas": Desodorante_Miniaturas,
+    "CPlaneta_Miniaturas": CPlaneta_Miniaturas,
+    "Suavitel_Miniaturas": Suavitel_Miniaturas,
+    "Axion_Miniaturas": Axion_Miniaturas,
+    "Naturals_Miniaturas": Naturals_Miniaturas,
+    "Total12Gums_Miniaturas": Total12Gums_Miniaturas,
+    "Spray_Miniaturas": Spray_Miniaturas,
+    "PDuo_Miniaturas": PDuo_Miniaturas,
+    "PCarbon_Miniaturas": PCarbon_Miniaturas,
+    "PLiquido_Miniaturas": PLiquido_Miniaturas,
+    "Clinical360_Miniaturas": Clinical360_Miniaturas,
+    "EresBarbara_Miniaturas": EresBarbara_Miniaturas,
+    "Fabuloso_Miniaturas": Fabuloso_Miniaturas,
+    "Ajax_Miniaturas": Ajax_Miniaturas,
+
+    // Colgate total 12
+    "Total12_Principal": Total12_Principal,
+    "Total12_Minegocio": Total12_Minegocio,
+    "Total12_Puntoventa": Total12_Puntoventa,
+    "Total12_Poster": Total12_Poster,
+    "Total12_Tapabocas": Total12_Tapabocas,
+
+    // Zig Zag
+    "Zigzag_Principal": Zigzag_Principal,
+    "Zigzag_Poster": Zigzag_Poster,
+    "Zigzag_Cenefa": Zigzag_Cenefa,
+    "Zigzag_Cenefa2": Zigzag_Cenefa2,
+
+    //CURCUMA
+    "Curcuma_PVenta1": Curcuma_PVenta1,
+    "Curcuma_PVenta2": Curcuma_PVenta2,
+    "Curcuma_PVenta3": Curcuma_PVenta3,
+    "Curcuma_PVenta4": Curcuma_PVenta4,
+    "Curcuma_Principal": Curcuma_Principal,
+
+    // COLGATE ZERO
+    "Zero_Principal": Zero_Principal,
+    "Zero_PVenta1": Zero_PVenta1,
+
+
+    // PERSONAL CARE
+    // PROTEX
+    "JabonProtex": JabonProtex,
+    "ManosProtex": ManosProtex,
+    "Palmolive": Palmolive,
+    "Desodorante": Desodorante,
+
+    // HOME CARE
+    // CUIDA EL PLANETA
+    "CPlaneta_Principal": CPlaneta_Principal,
+    "CPlaneta_PVenta1": CPlaneta_PVenta1,
+    "CPlaneta_PVenta2": CPlaneta_PVenta2,
+    "CPlaneta_PVenta3": CPlaneta_PVenta3,
+
+    // SUAVITEL
+    "Suavitel_Principal": Suavitel_Principal,
+    "Suavitel_PVenta1": Suavitel_PVenta1,
+    "Suavitel_PVenta2": Suavitel_PVenta2,
+    "Suavitel_Poster": Suavitel_Poster,
+
+    // AXION
+    "Axion_Principal": Axion_Principal,
+    "Axion_Cenefa": Axion_Cenefa,
+    "Axion_Poster": Axion_Poster,
+    "Axion_PosterAxion": Axion_PosterAxion,
+
+    // IMPLEMENTACIONES
+
+    // ORAL CARE
+    // NATURALS
+    "Naturals_Principal": Naturals_Principal,
+    "Naturals_PVenta1": Naturals_PVenta1,
+
+    // TOTAL 12 GUMS
+    "Total12Gums_Aeropuerto2": Total12Gums_Aeropuerto2,
+    "Total12Gums_PVenta1": Total12Gums_PVenta1,
+    "Total12Gums_Principal": Total12Gums_Principal,
+    "Total12Gums_Aeropuerto1": Total12Gums_Aeropuerto1,
+
+    // SPRAY
+    "Spray_Principal": Spray_Principal,
+    "Spray_PVenta1": Spray_PVenta1,
+
+    //PERSONAL CARE
+    // PROTEX DUO
+    "PDuo_Principal": PDuo_Principal,
+    "PDuo_PVenta1": PDuo_PVenta1,
+    "PDuo_Implementacion1": PDuo_Implementacion1,
+    "PDuo_Implementacion2": PDuo_Implementacion2,
+
+    // PALMOLIVE CARBON
+    "PCarbon_Principal": PCarbon_Principal,
+    "PCarbon_PVenta1": PCarbon_PVenta1,
+
+    // PALMOLIVE LIQUIDO
+    "PLiquido_Principal": PLiquido_Principal,
+    "PLiquido_PVenta1": PLiquido_PVenta1,
+
+    // CLINICAL 360
+    "Clinical360_PVenta1": Clinical360_PVenta1,
+    "Clinical360_Principal": Clinical360_Principal,
+    "Clinical360_Valla1": Clinical360_Valla1,
+    "Clinical360_Valla2": Clinical360_Valla2,
+    "Clinical360_BanerDuo": Clinical360_BanerDuo,
+    "Clinical360_CelCep": Clinical360_CelCep,
+    "Clinical360_Implementacion": Clinical360_Implementacion,
+
+    // ERES BARBARA
+    "Clinical360_KeyVisual1": Clinical360_KeyVisual1,
+    "Clinical360_KeyVisual2": Clinical360_KeyVisual2,
+
+    // FABULOSO
+    "Fabuloso_Principal": Fabuloso_Principal,
+    "Fabuloso_PVenta": Fabuloso_PVenta,
+
+    // AJAX
+    "Ajax_Principal": Ajax_Principal,
+    "Ajax_PVenta1": Ajax_PVenta1,
+    "Ajax_PVenta2": Ajax_PVenta2,
+
+}
+
+/*
+
 export const Images =
 {
     "Logo": LogoColgate,
@@ -132,3 +407,5 @@ export const Images =
     "Ajax_PVenta2": "https://i.ibb.co/xFNgTvv/HC-Punto-venta.jpg",
     
 }
+
+*/

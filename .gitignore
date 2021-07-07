@@ -19,7 +19,7 @@
 .env.production.local
 
 # Img
-src/img/MKTJOURNAL
+# src/img/MKTJOURNAL
 
 npm-debug.log*
 yarn-debug.log*

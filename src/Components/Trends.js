@@ -12,7 +12,7 @@ const Trends = () => {
             renderer: 'svg',
             loop: true,
             autoplay: true,
-            animationData: require('../img/Animacion2.json') // the path to the animation json
+            animationData: require('../img/nueva_animacion.json') // the path to the animation json ../img/Animacion2.json  ----------- d6d6d6
         });
     }, [])
 
