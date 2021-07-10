@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import lottie from 'lottie-web';
 import '../css/Trends.css';
+import Insights from "./Insights";
 
 const Trends = () => {
 
@@ -29,15 +30,20 @@ const Trends = () => {
 
     return (
         <div className="Body_Trends">
-            <div className="container_trends_titulo" ref={titulo}></div>
-            <div className="Body_Trends_animacion">
-                <div className="buttonsTrends">
-                    <button className="boton1">Insights</button>
+            <div className="Body_Trends_container">
+                <div className="container_trends_titulo" ref={titulo}></div>
+                <div className="Body_Trends_animacion">
+                    <div className="buttonsTrends">
+                        <button className="boton1"><a href="#Insights">Insights</a></button>
+                    </div>
+                    <div className="container_trends" ref={container}></div>
+                    <div className="buttonsTrends">
+                        <button href="#Media" className="boton2">Media</button>
+                    </div>
                 </div>
-                <div className="container_trends" ref={container}></div>
-                <div className="buttonsTrends">
-                    <button className="boton2">Media</button>
-                </div>
+            </div>
+            <div>
+            <Insights></Insights>
             </div>
         </div>
     );

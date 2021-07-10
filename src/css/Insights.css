@@ -1,0 +1,60 @@
+.seccionInsights{
+    width: 60em;
+    margin: 0 auto;
+}
+
+.tituloInsights{
+    font-size: 5em;
+    font-weight: 800;
+    color: #ce4a30;
+    margin-bottom: 30px;
+}
+
+.subtituloInsights{
+    font-size: 2.2em;
+    font-style: italic;
+    color: #ce4a30;
+    text-align: left;
+    font-weight: 700;
+}
+
+.textoInsights{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.tituloImgInsights{
+    font-size: 2.5em;
+    font-style: italic;
+    color: #ce4a30;
+    font-weight: 700;
+    margin-top: 1.3em;
+}
+
+.imgInsights{
+    width: 100%;
+}
+
+.fuenteInsights{
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: url('../img/Insights/lista.png') no-repeat left top;
+    height: auto;
+    padding-left: 25px;
+    text-align: justify;
+    margin: 15px 0;
+    font-size: 1em;
+}
+
+hr {
+    border-top: 2px solid rgba(0,0,0,0.7);
+}

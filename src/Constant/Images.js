@@ -139,6 +139,23 @@ import Ajax_Principal from "../img/MKTJOURNAL/Ajax/KV-Ajax.jpg";
 import Ajax_PVenta1 from "../img/MKTJOURNAL/Ajax/Ajax-Punto-venta.jpg";
 import Ajax_PVenta2 from "../img/MKTJOURNAL/Ajax/HC-Punto-venta.jpg";
 
+// ------------------------- TRENDS -------------------------
+// ------------------------- Insights -------------------------
+
+import imgInsights1 from "../img/Insights/Gráfica-1.jpg";
+import imgInsights2 from "../img/Insights/Gráfica-2.jpg";
+import imgInsights3 from "../img/Insights/Gráfica-3.jpg";
+import imgInsights4 from "../img/Insights/Gráfica-4.jpg";
+import imgInsights5 from "../img/Insights/Gráfica-5.jpg";
+import imgInsights6 from "../img/Insights/Gráfica-6.jpg";
+import imgInsights7 from "../img/Insights/Gráfica-7.jpg";
+import imgInsights8 from "../img/Insights/Gráfica-8.jpg";
+import imgInsights9 from "../img/Insights/Gráfica-9.jpg";
+import imgInsights10 from "../img/Insights/Gráfica-10.jpg";
+import imgInsights11 from "../img/Insights/Gráfica-11.jpg";
+import imgInsights12 from "../img/Insights/Gráfica-12.jpg";
+import imgInsights13 from "../img/Insights/Gráfica-13.jpg";
+
 export const Images = {
     "Logo": LogoColgate,
     "LogoMTJ": LogoMTJ,
@@ -282,6 +299,21 @@ export const Images = {
     "Ajax_PVenta1": Ajax_PVenta1,
     "Ajax_PVenta2": Ajax_PVenta2,
 
+    // ------------------------- TRENDS -------------------------
+    // ------------------------- Insights -------------------------
+    "imgInsights1": imgInsights1,
+    "imgInsights2": imgInsights2,
+    "imgInsights3": imgInsights3,
+    "imgInsights4": imgInsights4,
+    "imgInsights5": imgInsights5,
+    "imgInsights6": imgInsights6,
+    "imgInsights7": imgInsights7,
+    "imgInsights8": imgInsights8,
+    "imgInsights9": imgInsights9,
+    "imgInsights10": imgInsights10,
+    "imgInsights11": imgInsights11,
+    "imgInsights12": imgInsights12,
+    "imgInsights13": imgInsights13
 }
 
 /*
@@ -351,38 +383,38 @@ export const Images =
     "Axion_Cenefa": "https://i.ibb.co/Gtvm5Hn/Axion-cenefa.jpg",
     "Axion_Poster": "https://i.ibb.co/N3dJvrQ/Axion.jpg",
     "Axion_PosterAxion": "https://i.ibb.co/58PY5FZ/Axion2.jpg",
-   
+
     // IMPLEMENTACIONES
 
     // ORAL CARE
     // NATURALS
     "Naturals_Principal": "https://i.ibb.co/wYNBrNx/Colgate-Naturals.jpg",
     "Naturals_PVenta1": "https://i.ibb.co/WF8ZQ1b/Naturals-Punto-venta.jpg",
-    
+
     // TOTAL 12 GUMS
     "Total12Gums_Aeropuerto2": "https://i.ibb.co/VSkFWBr/Gums-Aeropuerto2.jpg",
     "Total12Gums_PVenta1": "https://i.ibb.co/9wDkrjm/Gums-Punto-venta.jpg",
     "Total12Gums_Principal": "https://i.ibb.co/pzxQvfm/KV-GUMS.jpg",
     "Total12Gums_Aeropuerto1": "https://i.ibb.co/fkVZSY5/Gums-Aeropuerto.jpg",
-    
+
     // SPRAY
     "Spray_Principal": "https://i.ibb.co/3dbytZX/Banner-T12-Spray-750x344.jpg",
     "Spray_PVenta1": "https://i.ibb.co/zxGtqZ1/Spray-T12-Punt-Venta.jpg",
-    
+
     //PERSONAL CARE
     // PROTEX DUO
     "PDuo_Principal": "https://i.ibb.co/0fVtGfY/Banner-Farmatodo-Duo-Protect.jpg",
     "PDuo_PVenta1": "https://i.ibb.co/K9hbDGs/duo-protect-punto-venta.jpg",
     "PDuo_Implementacion1": "https://i.ibb.co/LdP6hZG/Protex-implement.jpg",
     "PDuo_Implementacion2": "https://i.ibb.co/M7nvqhj/Protex-implement2.jpg",
-    
+
     // PALMOLIVE CARBON
     "PCarbon_Principal": "https://i.ibb.co/VMf61t9/Kv-palmolive.jpg",
     "PCarbon_PVenta1": "https://i.ibb.co/Q9S40MK/Palmolive-punto-venta.jpg",
-    
+
     // PALMOLIVE LIQUIDO
     "PLiquido_Principal": "https://i.ibb.co/ZKp7gC9/KV-palmolive-l-quido.jpg",
-    "PLiquido_PVenta1": "https://i.ibb.co/ZxY55dj/palmolive-punto-2.jpg",  
+    "PLiquido_PVenta1": "https://i.ibb.co/ZxY55dj/palmolive-punto-2.jpg",
 
     // CLINICAL 360
     "Clinical360_PVenta1": "https://i.ibb.co/7r0fSPg/desodorante-Punto-venta.jpg",
@@ -400,12 +432,12 @@ export const Images =
     // FABULOSO
     "Fabuloso_Principal": "https://i.ibb.co/sPmSQjT/KV-Fabuloso-Ultra.jpg",
     "Fabuloso_PVenta": "https://i.ibb.co/GxqMpNj/Fabuloso-Punto-venta.jpg",
-    
+
     // AJAX
     "Ajax_Principal": "https://i.ibb.co/4gFyyTj/KV-Ajax.jpg",
     "Ajax_PVenta1": "https://i.ibb.co/F0dkNL8/Ajax-Punto-venta.jpg",
     "Ajax_PVenta2": "https://i.ibb.co/xFNgTvv/HC-Punto-venta.jpg",
-    
+
 }
 
 */
