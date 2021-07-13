@@ -1,0 +1,242 @@
+.Media {
+    position: relative;
+    bottom: 15em;
+}
+
+.seccionMedia {
+    width: 60em;
+    margin: 0 auto;
+}
+
+.cabeceraMedia {
+    width: 100%;
+    background: #497bb8;
+    background-size: 1000px;
+}
+
+.imgMedia {
+    width: 100%;
+}
+
+.subtituloMedia {
+    font-size: 2.2em;
+    font-style: italic;
+    color: #606060;
+    text-align: left;
+    font-weight: 700;
+    margin: 1.5em 0;
+}
+
+.seccionMedia div.tituloImg1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    color: #6b93b9;
+    font-style: italic;
+}
+
+.tituloMedia {
+    font-size: 2.5em;
+    font-weight: 800;
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.seccionImgMedia {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    justify-content: center;
+}
+
+.seccionImgMedia a {
+    width: 50%;
+}
+
+.sImgMedia {
+    width: 99%;
+    margin: 0.2em;
+}
+
+.seccionDigital {
+    background: #fff;
+    background-size: 1000px;
+    padding: 2em 0;
+    margin: 1em 0 0;
+}
+
+.seccionDigital h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+    font-style: italic;
+    color: #497bb8;
+    margin: 40px 0;
+}
+
+.seccionBienvenida {
+    width: 60em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.seccionBienvenida .sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgMediaBienvenida {
+    width: 70%;
+    margin: 0 4em;
+}
+
+.imgMediaCelular {
+    width: 70%;
+    margin: 0 4em;
+}
+
+.textoBienvenida {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.textoBienvenida.negrita {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.correoMedia {
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-radius: 2em;
+    background: #ebebeb;
+    border: 0;
+    outline: none;
+    background-color: #dfe;
+    border: 0;
+}
+
+.titulo_correo {
+    margin-top: 3em;
+}
+
+.imgFinal{
+    background: #151f28;
+}
+
+.imgMediaFinal{
+    width: 60em;
+}
+
+@media only screen and (max-width: 480px) {
+    .seccionMedia {
+        width: 100%;
+        padding: 0 2em;
+    }
+
+    .cabeceraMedia {
+        width: 100%;
+        background: #497bb8;
+        background-size: 1000px;
+    }
+
+    .imgCabeceraMedia {
+        width: 100%;
+    }
+
+    .imgMediaCelular {
+        width: 120px;
+        margin: 0 auto;
+    }
+    .subtituloMedia{
+        text-align: center;
+        font-size: 1.5em;
+        margin: 1em 0;
+    }
+
+    .tituloMedia{
+        font-size: 1.3em;
+    }
+
+    .seccionImgMedia {
+        display: flex;
+        flex-wrap: wrap;
+        background: #fff;
+        justify-content: center;
+    }
+
+    .seccionImgMedia a {
+        width: 48%;
+    }
+
+    .seccionDigital {
+        padding: 0.5em 0;
+        margin: 1em 0 0;
+    }
+
+
+    .seccionBienvenida {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2em;
+        text-align: justify;
+    }
+
+    .seccionBienvenida .sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgMediaBienvenida {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .textoBienvenida {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .textoBienvenida.negrita {
+        font-size: 1.5em;
+    }
+
+    .textoBienvenida br {
+        display: none;
+    }
+
+    .correoMedia {
+        font-size: 1.2em;
+        padding: 0.3em;
+        border-radius: 2em;
+        background: #ebebeb;
+        border: 0;
+        outline: none;
+        background-color: #dfe;
+        border: 0;
+    }
+
+    .titulo_correo {
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .imgMediaCelular {
+        width: 85%;
+        margin: 2em auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgMediaFinal{
+        width: 90%;
+    }
+}

@@ -3,7 +3,7 @@ import { Images } from '../Constant/Images';
 import "./../css/Nav.css";
 
 
-const Nav = () => {    
+const Nav = () => {
 
     return (
         <nav className="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm responsive-navbar-nav shadow-sm bg-white">
@@ -33,11 +33,15 @@ const Nav = () => {
 
                         </div>
                     </div>
-                    <div className="navSecction ParticipaYGana">
-                    <div className="cabecera">
-                        <button className="n-button"><a href={`/trends`}>TRENDS</a></button>
+                    <div className="navSecction Trends">
+                        <div className="cabecera">
+                            <button className="n-button"><a href={`/trends`}>TRENDS</a></button>
+                        </div>
+                        <div className="buttons" id="btn">
+                            <button className="n-button"><a href={`/trends#Insights`}>INSIGHTS</a></button><div className="vertical-line"></div>
+                            <button className="n-button"><a href={`/trends#Media`}>MEDIA</a></button>
+                        </div>
                     </div>
-                </div>
                 </div>
                 <div className="n-logoMTJ">
                     <img src={Images.LogoMTJ} alt="" />

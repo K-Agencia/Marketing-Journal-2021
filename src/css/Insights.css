@@ -1,16 +1,36 @@
-.seccionInsights{
+.Insights {
+    position: relative;
+    bottom: 15em;
+}
+
+.seccionInsights.gris {
     width: 60em;
     margin: 0 auto;
 }
 
-.tituloInsights{
+.seccionInsights.blanco {
+    background: #fff;
+    background-size: 1000px;
+}
+
+.seccionInsights.blanco .contentInsights {
+    width: 60em;
+    margin: 0 auto;
+}
+
+.tituloInsights {
     font-size: 5em;
     font-weight: 800;
     color: #ce4a30;
     margin-bottom: 30px;
 }
 
-.subtituloInsights{
+.tituloImgInsights.acciones {
+    padding-top: 1em;
+    margin: 0;
+}
+
+.subtituloInsights {
     font-size: 2.2em;
     font-style: italic;
     color: #ce4a30;
@@ -18,12 +38,12 @@
     font-weight: 700;
 }
 
-.textoInsights{
+.textoInsights {
     font-size: 1.2em;
     text-align: justify;
 }
 
-.tituloImgInsights{
+.tituloImgInsights {
     font-size: 2.5em;
     font-style: italic;
     color: #ce4a30;
@@ -31,11 +51,11 @@
     margin-top: 1.3em;
 }
 
-.imgInsights{
+.imgInsights {
     width: 100%;
 }
 
-.fuenteInsights{
+.fuenteInsights {
     font-size: 0.9em;
     font-weight: 700;
 }
@@ -48,13 +68,66 @@ ul {
 
 li {
     background: url('../img/Insights/lista.png') no-repeat left top;
+    background-size: 30px 30px;
     height: auto;
     padding-left: 25px;
     text-align: justify;
     margin: 15px 0;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 hr {
-    border-top: 2px solid rgba(0,0,0,0.7);
+    border-top: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 480px) {
+    .imgInsights {
+        width: 100%;
+    }
+
+    .seccionInsights.gris {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 2em;
+    }
+
+    .seccionInsights.blanco {
+
+        background: #fff;
+        background-size: 1000px;
+    }
+
+    .seccionInsights.blanco .contentInsights {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 2em;
+    }
+
+    .tituloInsights {
+        font-size: 3em;
+    }
+
+    .subtituloInsights {
+        font-size: 1.7em;
+    }
+
+    .textoInsights {
+        font-size: 0.9em;
+        text-align: justify;
+    }
+
+    .tituloImgInsights {
+        font-size: 1.3em;
+    }
+
+    .fuenteInsights {
+        font-size: 0.6em;
+        font-weight: 700;
+    }
+
+    li{
+        background: url('../img/Insights/listaC.png') no-repeat left top;
+        font-size: 0.8em;
+        background-size: 12px 12px;
+    }
 }

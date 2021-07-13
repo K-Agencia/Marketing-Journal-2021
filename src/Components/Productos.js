@@ -24,22 +24,22 @@ const getArray = (titulo, tipo) => {
 // const Productos = () => {
 const Productos = ({ titulo, tipo }) => {
     const data = getArray(titulo, tipo);
-    
+
     return (
         <div>
             {/* <h2>{tipo}</h2> */}
-            
+
             {data.map(prod => (
 
                 <div key={prod._id} className="p_producto">
-
                     <h4 id={prod._id} className={`p_fecha ${tipo}`}>{prod.fecha}</h4>
                     <h3 className={`p_titulo ${tipo}`}>{prod.titulo}</h3>
                     <span className="p_subtitulo">{prod.subtitulo}</span>
                     <p className="p_descripcion">{prod.descripcion}</p>
                     <img className="p_imgPrincipal" src={prod.imagenP} alt="" />
                     <img className="p_imgPrincipal" src={prod.imagenP2} alt="" />
-                    <h4 className="p_titulo2">Canales de publicidad</h4>
+                    <h4 className={ prod._id === 7 ? "p_titulo2 sinPublicidad" : "p_titulo2"}>Canales de publicidad</h4>
+                    
                     <div className="p_publicidad">
                         {prod.publicidad.map(pub => (
                             <div key={pub._idP} className="p_pub">
@@ -50,7 +50,7 @@ const Productos = ({ titulo, tipo }) => {
                     <div className="linea"></div>
                 </div>
             ))}
-            
+
         </div>
     );
 };

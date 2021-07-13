@@ -24,11 +24,7 @@ export const innovaciones_oral = [
         fecha: " Julio 2021",
         titulo: "OC - Crema Dental Total 12 Clean Mint 38ml",
         subtitulo: "Próximamente",
-        descripcion: `Los beneficios que ofrece este lanzamiento son:
-        1. Protección Bucal Completa 
-        2. Disponibilidad en las tiendas de barrio/bodegas 
-        3. Nuevo Claim: Economía + Protección
-        `,
+        descripcion: `Este lanzamiento ofrece una protección bucal completa, disponibilidad en las tiendas de barrio y un nuevo claim: Economía + Protección`,
         imagenMiniatura: `${Images.Total12_Miniaturas}`,
         imagenP: `${Images.Total12_Principal}`,
         publicidad: [
@@ -82,6 +78,12 @@ export const innovaciones_oral = [
             {
                 _idP: j++,
                 tipo: "i",
+                pTitulo: "Punto de venta",
+                pSrc: `${Images.Zigzag_PVenta}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
                 pTitulo: "Punto de venta - Cenefa",
                 pSrc: `${Images.Zigzag_Cenefa}`,
             },
@@ -97,7 +99,7 @@ export const innovaciones_oral = [
         _id: i++,
         fecha: "Julio 2021",
         titulo: "Crema Dental Colgate Natural Extracts Cúrcuma",
-        subtitulo: "Próximamente",
+        subtitulo: "",
         descripcion: "La fórmula de la Crema Dental Natural Extracts Limpieza Profunda, contiene extractos de cúrcuma que remueven las bacterias de tu boca, mientras la limpia profundamente dejando un sabor refrescante a yerbabuena.",
         imagenMiniatura: `${Images.Curcuma_Miniaturas}`,
         imagenP: `${Images.Curcuma_Principal}`,
@@ -132,7 +134,7 @@ export const innovaciones_oral = [
         _id: i++,
         fecha: "Julio 2021",
         titulo: "Crema Dental Colgate Zero",
-        subtitulo: "Próximamente",
+        subtitulo: "",
         descripcion: "La nueva Crema Dental Colgate Zero es 0% Artificial, siendo libre de Saborizantes, Endulzantes, Colorantes y Conservantes. Además, cuenta con una fórmula en Gel Transparente con sabor a menta y hierbabuena.",
         imagenMiniatura: `${Images.Zero_Miniaturas}`,
         imagenP: `${Images.Zero_Principal}`,
@@ -178,12 +180,6 @@ export const innovaciones_personal = [
                 _idP: j++,
                 tipo: "v",
                 pTitulo: "Digital",
-                pSrc: 'https://www.youtube.com/embed/fIz10gT-TgE',
-            },
-            {
-                _idP: j++,
-                tipo: "v",
-                pTitulo: "Digital",
                 pSrc: 'https://www.youtube.com/embed/hQ0bT4X4EPA',
             },
             {
@@ -212,23 +208,17 @@ export const innovaciones_personal = [
             {
                 _idP: j++,
                 tipo: "v",
-                pTitulo: "Menciones",
+                pTitulo: "Congelado",
                 pSrc: 'https://www.youtube.com/embed/_Xsrad4Qt4M',
             },
-            {
-                _idP: j++,
-                tipo: "v",
-                pTitulo: "Menciones",
-                pSrc: 'https://www.youtube.com/embed/c6Gh83UKYQI',
-            }
         ]
     },
     {
         _id: i++,
         fecha: "Abril 2021",
-        titulo: "Lanzamiento Speed Stick Xtreme Night Gel 70 gr y Lady Speed Stick Talc en Crema 70 gr",
-        subtitulo: "Próximamente",
-        descripcion: "Nueva presentación de desodorantes, ahora en tubos de 70 gr de fácil aplicación y prácticos de llevar",
+        titulo: "Lanzamiento Speed Stick Xtreme Night Gel 70 g y Lady Speed Stick Talc en Crema 70 g",
+        subtitulo: "",
+        descripcion: "Nueva presentación de desodorantes, ahora en tubos de 70 g de fácil aplicación y prácticos de llevar",
         imagenMiniatura: `${Images.Desodorante_Miniaturas}`,
         imagenP: `${Images.Desodorante}`,
         publicidad: [
@@ -309,14 +299,15 @@ export const innovaciones_home = [
                 _idP: j++,
                 tipo: "i",
                 pTitulo: "Punto de venta",
-                pSrc: `${Images.Suavitel_PVenta2}`,
+                pSrc: `${Images.Suavitel_Poster}`,
             },
             {
                 _idP: j++,
                 tipo: "i",
                 pTitulo: "Punto de venta",
-                pSrc: `${Images.Suavitel_Poster}`,
+                pSrc: `${Images.Suavitel_PVenta2}`,
             },
+            
             // {
             //     _idP: j++,
             //     tipo: "v",
@@ -327,7 +318,7 @@ export const innovaciones_home = [
     },
     {
         _id: i++,
-        fecha: "Junio 2021",
+        fecha: "Julio 2021",
         titulo: "Axion Antibacterial Pasta",
         subtitulo: "",
         descripcion: "",
@@ -399,15 +390,16 @@ export const implementaciones_oral = [
             {
                 _idP: j++,
                 tipo: "i",
-                pTitulo: "Punto de venta (Aeropuerto)",
-                pSrc: `${Images.Total12Gums_Aeropuerto1}`,
+                pTitulo: "Publicidad Exterior (Aeropuerto)",
+                pSrc: `${Images.Total12Gums_Aeropuerto2}`,
             },
             {
                 _idP: j++,
                 tipo: "i",
-                pTitulo: "Punto de venta (Aeropuerto)",
-                pSrc: `${Images.Total12Gums_Aeropuerto2}`,
+                pTitulo: "Publicidad Exterior (Aeropuerto)",
+                pSrc: `${Images.Total12Gums_Aeropuerto1}`,
             },
+            
         ]
     },
     {
@@ -424,6 +416,24 @@ export const implementaciones_oral = [
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Spray_PVenta1}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Punto de venta",
+                pSrc: `${Images.Spray_PVenta2}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Punto de venta",
+                pSrc: `${Images.Spray_PVenta3}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Punto de venta",
+                pSrc: `${Images.Spray_PVenta4}`,
             }
         ]
     }
@@ -444,13 +454,19 @@ export const implementaciones_personal = [
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.PDuo_PVenta1}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.PDuo_Ecommerce}`,
             }
         ]
     },
     {
         _id: i++,
         fecha: "Enero 2021",
-        titulo: "PTX HWC Vaccination",
+        titulo: "PTX HWC Vacunación",
         subtitulo: "",
         descripcion: "",
         imagenMiniatura: `${Images.falta}`,
@@ -467,7 +483,7 @@ export const implementaciones_personal = [
                 tipo: "i",
                 pTitulo: "Implementación",
                 pSrc: `${Images.PDuo_Implementacion2}`,
-            },
+            }
         ]
     },
     {
@@ -484,6 +500,18 @@ export const implementaciones_personal = [
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.PCarbon_PVenta1}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.PCarbon_Ecommerce1}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.PCarbon_Ecommerce2}`,
             }
         ]
     },
@@ -501,13 +529,19 @@ export const implementaciones_personal = [
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.PLiquido_PVenta1}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.PLiquido_Ecommerce}`,
             }
         ]
     },
     {
         _id: i++,
         fecha: "Enero 2021",
-        titulo: "Speed Stick y Leidy Speed Stick Clinical 360",
+        titulo: "Speed Stick y Lady Speed Stick Clinical 360",
         subtitulo: "",
         descripcion: "",
         imagenMiniatura: `${Images.Clinical360_Miniaturas}`,
@@ -619,13 +653,13 @@ export const implementaciones_home = [
             {
                 _idP: j++,
                 tipo: "i",
-                pTitulo: "Areas de experiencia",
+                pTitulo: "Punto de venta",
                 pSrc: `${Images.Ajax_PVenta1}`,
             },
             {
                 _idP: j++,
                 tipo: "i",
-                pTitulo: "Areas de experiencia",
+                pTitulo: "Areas de experiencia de Home Care",
                 pSrc: `${Images.Ajax_PVenta2}`,
             }
         ]

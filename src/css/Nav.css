@@ -72,7 +72,7 @@
     background: #9A0D13;
 }
 
-.direccionar div.navSecction.ParticipaYGana {
+.direccionar div.navSecction.Trends {
     background: #FE2629;
 }
 
@@ -212,7 +212,7 @@ div.vertical-line {
     }
 
     .n-logoMTJ {
-        width: 80px;
+        width: 60px;
         height: 100%;
         display: flex;
         justify-content: flex-end;

@@ -44,6 +44,7 @@ import Total12_Tapabocas from "../img/MKTJOURNAL/Total12/Usa-el-tapabocas.jpg";
 // Zig Zag
 import Zigzag_Principal from "../img/MKTJOURNAL/ZigZag/KV-Zigzag-_-MKTJ.jpg";
 import Zigzag_Poster from "../img/MKTJOURNAL/ZigZag/ZigZag.jpg";
+import Zigzag_PVenta from "../img/MKTJOURNAL/ZigZag/Zigzag2.jpg";
 import Zigzag_Cenefa from "../img/MKTJOURNAL/ZigZag/ZigZag-cenefa.jpg";
 import Zigzag_Cenefa2 from "../img/MKTJOURNAL/ZigZag/ZigZag-cenefa-2.jpg";
 
@@ -101,21 +102,28 @@ import Total12Gums_Aeropuerto1 from "../img/MKTJOURNAL/Total12Gums/Gums-Aeropuer
 // SPRAY
 import Spray_Principal from "../img/MKTJOURNAL/Spray/Banner-T12-Spray-750x344.jpg";
 import Spray_PVenta1 from "../img/MKTJOURNAL/Spray/Spray-T12-Punt-Venta.jpg";
+import Spray_PVenta2 from "../img/MKTJOURNAL/Spray/Spray1.jpg";
+import Spray_PVenta3 from "../img/MKTJOURNAL/Spray/Spray2.jpg";
+import Spray_PVenta4 from "../img/MKTJOURNAL/Spray/Spray3.jpg";
 
 //PERSONAL CARE
 // PROTEX DUO
 import PDuo_Principal from "../img/MKTJOURNAL/Protex/Banner-Farmatodo_Duo-Protect.jpg";
 import PDuo_PVenta1 from "../img/MKTJOURNAL/Protex/duo-protect-punto-venta.jpg";
+import PDuo_Ecommerce from "../img/MKTJOURNAL/Protex/Protexduo.jpg";
 import PDuo_Implementacion1 from "../img/MKTJOURNAL/Protex/Protex-implement.jpg";
 import PDuo_Implementacion2 from "../img/MKTJOURNAL/Protex/Protex-implement2.jpg";
 
 // PALMOLIVE CARBON
 import PCarbon_Principal from "../img/MKTJOURNAL/Charcoal/Kv-palmolive.jpg";
 import PCarbon_PVenta1 from "../img/MKTJOURNAL/Charcoal/Palmolive-punto-venta.jpg";
+import PCarbon_Ecommerce1 from "../img/MKTJOURNAL/Charcoal/Palmolive.jpg";
+import PCarbon_Ecommerce2 from "../img/MKTJOURNAL/Charcoal/Banner-Jabones-liquidos.jpg";
 
 // PALMOLIVE LIQUIDO
 import PLiquido_Principal from "../img/MKTJOURNAL/Palmolive/KV-palmolive-liquido.jpg";
 import PLiquido_PVenta1 from "../img/MKTJOURNAL/Palmolive/palmolive-punto-2.jpg";
+import PLiquido_Ecommerce from "../img/MKTJOURNAL/Palmolive/Vitrina-Principal-Desktop_Luminous-Oil.jpg";
 
 // CLINICAL 360
 import Clinical360_PVenta1 from "../img/MKTJOURNAL/Clinical/desodorante-Punto-venta.jpg";
@@ -141,20 +149,30 @@ import Ajax_PVenta2 from "../img/MKTJOURNAL/Ajax/HC-Punto-venta.jpg";
 
 // ------------------------- TRENDS -------------------------
 // ------------------------- Insights -------------------------
+import imgInsights1 from "../img/Insights/grafica1.jpg";
+import imgInsights2 from "../img/Insights/grafica2.jpg";
+import imgInsights3 from "../img/Insights/grafica3.jpg";
+import imgInsights4 from "../img/Insights/grafica4.jpg";
+import imgInsights5 from "../img/Insights/grafica5.jpg";
+import imgInsights6 from "../img/Insights/grafica6.jpg";
+import imgInsights7 from "../img/Insights/grafica7.jpg";
+import imgInsights8 from "../img/Insights/grafica8.jpg";
+import imgInsights9 from "../img/Insights/grafica9.jpg";
+import imgInsights10 from "../img/Insights/grafica10.jpg";
+import imgInsights11 from "../img/Insights/grafica11.jpg";
+import imgInsights12 from "../img/Insights/grafica12.jpg";
+import imgInsights13 from "../img/Insights/grafica13.jpg";
 
-import imgInsights1 from "../img/Insights/Gráfica-1.jpg";
-import imgInsights2 from "../img/Insights/Gráfica-2.jpg";
-import imgInsights3 from "../img/Insights/Gráfica-3.jpg";
-import imgInsights4 from "../img/Insights/Gráfica-4.jpg";
-import imgInsights5 from "../img/Insights/Gráfica-5.jpg";
-import imgInsights6 from "../img/Insights/Gráfica-6.jpg";
-import imgInsights7 from "../img/Insights/Gráfica-7.jpg";
-import imgInsights8 from "../img/Insights/Gráfica-8.jpg";
-import imgInsights9 from "../img/Insights/Gráfica-9.jpg";
-import imgInsights10 from "../img/Insights/Gráfica-10.jpg";
-import imgInsights11 from "../img/Insights/Gráfica-11.jpg";
-import imgInsights12 from "../img/Insights/Gráfica-12.jpg";
-import imgInsights13 from "../img/Insights/Gráfica-13.jpg";
+// ------------------------- Media -------------------------
+import imgMedia1 from "../img/Media/Media1.jpg";
+import imgMedia2 from "../img/Media/Media2.jpg";
+import imgMedia3 from "../img/Media/Media3.jpg";
+import imgMedia4 from "../img/Media/Media4.jpg";
+import imgMedia5 from "../img/Media/Media5.jpg";
+import imgMedia6 from "../img/Media/Media6.jpg";
+import imgMedia7 from "../img/Media/Media7.jpg";
+import imgMedia8 from "../img/Media/Media8.jpg";
+import imgMedia9 from "../img/Media/Media9.jpg";
 
 export const Images = {
     "Logo": LogoColgate,
@@ -204,6 +222,7 @@ export const Images = {
     // Zig Zag
     "Zigzag_Principal": Zigzag_Principal,
     "Zigzag_Poster": Zigzag_Poster,
+    "Zigzag_PVenta": Zigzag_PVenta,
     "Zigzag_Cenefa": Zigzag_Cenefa,
     "Zigzag_Cenefa2": Zigzag_Cenefa2,
 
@@ -261,6 +280,9 @@ export const Images = {
     // SPRAY
     "Spray_Principal": Spray_Principal,
     "Spray_PVenta1": Spray_PVenta1,
+    "Spray_PVenta2": Spray_PVenta2,
+    "Spray_PVenta3": Spray_PVenta3,
+    "Spray_PVenta4": Spray_PVenta4,
 
     //PERSONAL CARE
     // PROTEX DUO
@@ -268,14 +290,19 @@ export const Images = {
     "PDuo_PVenta1": PDuo_PVenta1,
     "PDuo_Implementacion1": PDuo_Implementacion1,
     "PDuo_Implementacion2": PDuo_Implementacion2,
+    "PDuo_Ecommerce": PDuo_Ecommerce,
 
     // PALMOLIVE CARBON
     "PCarbon_Principal": PCarbon_Principal,
     "PCarbon_PVenta1": PCarbon_PVenta1,
+    "PCarbon_Ecommerce1": PCarbon_Ecommerce1,
+    "PCarbon_Ecommerce2": PCarbon_Ecommerce2,
+
 
     // PALMOLIVE LIQUIDO
     "PLiquido_Principal": PLiquido_Principal,
     "PLiquido_PVenta1": PLiquido_PVenta1,
+    "PLiquido_Ecommerce": PLiquido_Ecommerce,
 
     // CLINICAL 360
     "Clinical360_PVenta1": Clinical360_PVenta1,
@@ -313,7 +340,18 @@ export const Images = {
     "imgInsights10": imgInsights10,
     "imgInsights11": imgInsights11,
     "imgInsights12": imgInsights12,
-    "imgInsights13": imgInsights13
+    "imgInsights13": imgInsights13,
+
+    // ------------------------- Media -------------------------
+    "imgMedia1": imgMedia1,
+    "imgMedia2": imgMedia2,
+    "imgMedia3": imgMedia3,
+    "imgMedia4": imgMedia4,
+    "imgMedia5": imgMedia5,
+    "imgMedia6": imgMedia6,
+    "imgMedia7": imgMedia7,
+    "imgMedia8": imgMedia8,
+    "imgMedia9": imgMedia9,
 }
 
 /*

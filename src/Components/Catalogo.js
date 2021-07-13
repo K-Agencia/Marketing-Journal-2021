@@ -4,7 +4,15 @@ import TituloBanner from './TituloBanner';
 import Slider from './Slider';
 import Container from 'react-bootstrap/esm/Container';
 
+function capitalizarPrimeraLetra(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 const Catalogo = ({ titulo }) => {
+
+    let navTitulo = capitalizarPrimeraLetra(titulo);
+    window.document.title = `${navTitulo} - Marketing Journal`;
+
     return (
         <div className="content">
             <div className="espacio"></div>

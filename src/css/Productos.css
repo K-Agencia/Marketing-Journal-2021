@@ -26,6 +26,11 @@ h4.p_titulo2 {
     margin: 4rem
 }
 
+
+h4.p_titulo2.sinPublicidad{
+    display: none;
+}
+
 div.p_publicidad {
     /* display: flex;
     flex-direction: row;
