@@ -23,7 +23,7 @@ export const innovaciones_oral = [
         _id: i++,
         fecha: " Julio 2021",
         titulo: "OC - Crema Dental Total 12 Clean Mint 38ml",
-        subtitulo: "Próximamente",
+        subtitulo: "",
         descripcion: `Este lanzamiento ofrece una protección bucal completa, disponibilidad en las tiendas de barrio y un nuevo claim: Economía + Protección`,
         imagenMiniatura: `${Images.Total12_Miniaturas}`,
         imagenP: `${Images.Total12_Principal}`,
@@ -580,13 +580,13 @@ export const implementaciones_personal = [
             {
                 _idP: j++,
                 tipo: "v",
-                pTitulo: "Implementation Digital",
+                pTitulo: "Implementación Digital",
                 pSrc: 'https://www.youtube.com/embed/0xgwl8Tiwlc',
             },
             {
                 _idP: j++,
                 tipo: "v",
-                pTitulo: "Implementation Digital",
+                pTitulo: "Implementación Digital",
                 pSrc: 'https://www.youtube.com/embed/CP-7NPVOXR4',
             }
         ]
@@ -604,19 +604,19 @@ export const implementaciones_personal = [
             {
                 _idP: j++,
                 tipo: "v",
-                pTitulo: "Implementation Digital",
+                pTitulo: "Implementación Digital",
                 pSrc: 'https://www.youtube.com/embed/Roe3nGnkqvM',
             },
             {
                 _idP: j++,
                 tipo: "v",
-                pTitulo: "Implementation Digital",
+                pTitulo: "Implementación Digital",
                 pSrc: 'https://www.youtube.com/embed/DVLTBhcxlQc',
             },
             {
                 _idP: j++,
                 tipo: "v",
-                pTitulo: "Implementation Digital",
+                pTitulo: "Implementación Digital",
                 pSrc: 'https://www.youtube.com/embed/44sz8IwW00o',
             }
         ]
@@ -656,12 +656,35 @@ export const implementaciones_home = [
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Ajax_PVenta1}`,
             },
+        ]
+    },
+    {
+        _id: i++,
+        fecha: "",
+        titulo: "Areas de experiencia de Home Care",
+        subtitulo: "",
+        descripcion: "",
+        imagenMiniatura: `${Images.ExperienciaKV}`,
+        imagenP: ``,
+        publicidad: [
             {
                 _idP: j++,
                 tipo: "i",
-                pTitulo: "Areas de experiencia de Home Care",
-                pSrc: `${Images.Ajax_PVenta2}`,
-            }
+                pTitulo: "",
+                pSrc: `${Images.Experiencia1}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "",
+                pSrc: `${Images.Experiencia2}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "",
+                pSrc: `${Images.Experiencia3}`,
+            },
         ]
     },
 ]

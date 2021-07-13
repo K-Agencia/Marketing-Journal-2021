@@ -145,7 +145,11 @@ import Fabuloso_PVenta from "../img/MKTJOURNAL/Fabuloso/Fabuloso-Punto-venta.jpg
 // AJAX
 import Ajax_Principal from "../img/MKTJOURNAL/Ajax/KV-Ajax.jpg";
 import Ajax_PVenta1 from "../img/MKTJOURNAL/Ajax/Ajax-Punto-venta.jpg";
-import Ajax_PVenta2 from "../img/MKTJOURNAL/Ajax/HC-Punto-venta.jpg";
+
+import ExperienciaKV from "../img/MKTJOURNAL/Experiencia/experienciaKV.jpg";
+import Experiencia1 from "../img/MKTJOURNAL/Experiencia/experiencia1.jpg";
+import Experiencia2 from "../img/MKTJOURNAL/Experiencia/experiencia2.jpg";
+import Experiencia3 from "../img/MKTJOURNAL/Experiencia/experiencia3.jpg";
 
 // ------------------------- TRENDS -------------------------
 // ------------------------- Insights -------------------------
@@ -323,8 +327,13 @@ export const Images = {
 
     // AJAX
     "Ajax_Principal": Ajax_Principal,
-    "Ajax_PVenta1": Ajax_PVenta1,
-    "Ajax_PVenta2": Ajax_PVenta2,
+    "Ajax_PVenta1": Ajax_PVenta1,    
+
+    // EXPERIENCIAS DE HOME CARE
+    "ExperienciaKV": ExperienciaKV,
+    "Experiencia1": Experiencia1,
+    "Experiencia2": Experiencia2,
+    "Experiencia3": Experiencia3,
 
     // ------------------------- TRENDS -------------------------
     // ------------------------- Insights -------------------------
