@@ -130,6 +130,11 @@ button a:hover {
         text-align: center;
         transform: none !important;
     }
+    .boton1_m a{
+        margin: 0;
+        position: relative;
+        right: 0.4em;
+    }
 
     .boton1_m:hover, .boton2_m:hover{
         transform: none !important;
