@@ -17,7 +17,8 @@ const Publicidad = ({ pTitulo, pSrc, tipo }) => {
                 <h4 className="pTitulo">{pTitulo}</h4>
                 <img className="p_imagen" src={pSrc} alt="" onClick={handleShow} />
 
-                <Modal show={show} onHide={handleClose} size="lg" className="modalCenter">
+                <Modal show={show} onHide={handleClose} size="md" className="modalCenter">
+                <Modal.Header closeButton></Modal.Header>
                     <Modal.Body>
                         <img className="img-fluid" src={pSrc} alt="" />
                     </Modal.Body>

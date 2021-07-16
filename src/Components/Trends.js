@@ -12,7 +12,7 @@ const Trends = () => {
     const titulo = useRef(null);
 
     let res = window.screen.width;
-    console.log(res);
+    // console.log(res);
     useEffect(() => {
         lottie.loadAnimation({
             container: container.current, // the dom element that will contain the animation

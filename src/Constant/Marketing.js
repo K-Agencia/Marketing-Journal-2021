@@ -30,21 +30,9 @@ export const innovaciones_oral = [
         publicidad: [
             {
                 _idP: j++,
-                tipo: "v",
-                pTitulo: "TVC",
-                pSrc: `https://www.youtube.com/embed/2O6olWmQ-aE`,
-            },
-            {
-                _idP: j++,
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Total12_Puntoventa}`,
-            },
-            {
-                _idP: j++,
-                tipo: "i",
-                pTitulo: "Punto de venta",
-                pSrc: `${Images.Total12_Minegocio}`,
             },
             {
                 _idP: j++,
@@ -56,7 +44,19 @@ export const innovaciones_oral = [
                 _idP: j++,
                 tipo: "i",
                 pTitulo: "Punto de venta",
+                pSrc: `${Images.Total12_Minegocio}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Punto de venta",
                 pSrc: `${Images.Total12_Tapabocas}`,
+            },
+            {
+                _idP: j++,
+                tipo: "v",
+                pTitulo: "TVC",
+                pSrc: `https://www.youtube.com/embed/2O6olWmQ-aE`,
             }
         ]
     },
@@ -92,7 +92,7 @@ export const innovaciones_oral = [
                 tipo: "i",
                 pTitulo: "Punto de venta - Cenefa",
                 pSrc: `${Images.Zigzag_Cenefa2}`,
-            }
+            },
         ]
     },
     {
@@ -127,6 +127,12 @@ export const innovaciones_oral = [
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Curcuma_PVenta4}`,
+            },
+            {
+                _idP: j++,
+                tipo: "v",
+                pTitulo: "Digital",
+                pSrc: 'https://www.youtube.com/embed/D3oI4IJWpuo',
             }
         ]
     },
@@ -144,6 +150,12 @@ export const innovaciones_oral = [
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Zero_PVenta1}`,
+            },
+            {
+                _idP: j++,
+                tipo: "v",
+                pTitulo: "Digital",
+                pSrc: 'https://www.youtube.com/embed/v0U-OXeK4Uk',
             }
         ]
     }
@@ -163,7 +175,7 @@ export const innovaciones_personal = [
                 _idP: j++,
                 tipo: "v",
                 pTitulo: "Digital",
-                pSrc: 'https://www.youtube.com/embed/214vPY5FXXY',
+                pSrc: 'https://www.youtube.com/embed/cAwQwmBOTtA',
             }
         ]
     },
@@ -369,6 +381,12 @@ export const implementaciones_oral = [
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Naturals_PVenta1}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.Naturals_Ecommerce}`,
             }
         ]
     },
@@ -390,7 +408,19 @@ export const implementaciones_oral = [
             {
                 _idP: j++,
                 tipo: "i",
-                pTitulo: "Publicidad Exterior (Aeropuerto)",
+                pTitulo: "Punto de venta",
+                pSrc: `${Images.Total12Gums_PVenta2}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.Total12Gums_Ecommerce}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Publicidad Interior (Aeropuerto)",
                 pSrc: `${Images.Total12Gums_Aeropuerto2}`,
             },
             {
@@ -399,7 +429,12 @@ export const implementaciones_oral = [
                 pTitulo: "Publicidad Exterior (Aeropuerto)",
                 pSrc: `${Images.Total12Gums_Aeropuerto1}`,
             },
-            
+            {
+                _idP: j++,
+                tipo: "v",
+                pTitulo: "Digital",
+                pSrc: 'https://www.youtube.com/embed/cSG2lGih_S8',
+            }
         ]
     },
     {
@@ -434,6 +469,35 @@ export const implementaciones_oral = [
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Spray_PVenta4}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.Spray_Ecommerce}`,
+            },
+            {
+                _idP: j++,
+                tipo: "v",
+                pTitulo: "Digital",
+                pSrc: 'https://www.youtube.com/embed/G_80Qi1j4l8',
+            }
+        ]
+    },
+    {
+        _id: 999,
+        fecha: "Julio 2021",
+        titulo: "Campaña de Equity",
+        subtitulo: "",
+        descripcion: "",
+        imagenMiniatura: `${Images.Equiti_Miniaturas}`,
+        imagenP: `${Images.Equiti}`,
+        publicidad: [
+            {
+                _idP: j++,
+                tipo: "v",
+                pTitulo: "Digital",
+                pSrc: 'https://www.youtube.com/embed/fSDA8tMDtik',
             }
         ]
     }
@@ -469,8 +533,8 @@ export const implementaciones_personal = [
         titulo: "PTX HWC Vacunación",
         subtitulo: "",
         descripcion: "",
-        imagenMiniatura: `${Images.falta}`,
-        imagenP: `${Images.falta}`,
+        imagenMiniatura: `${Images.Vacunacion_Miniaturas}`,
+        imagenP: `${Images.Vacunacion}`,
         publicidad: [
             {
                 _idP: j++,
@@ -638,6 +702,24 @@ export const implementaciones_home = [
                 tipo: "i",
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Fabuloso_PVenta}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.Fabuloso_Ecommerce1}`,
+            },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.Fabuloso_Ecommerce2}`,
+            },
+            {
+                _idP: j++,
+                tipo: "v",
+                pTitulo: "Implementación Digital",
+                pSrc: 'https://www.youtube.com/embed/kORYlW-WfZI',
             }
         ]
     },
@@ -656,10 +738,22 @@ export const implementaciones_home = [
                 pTitulo: "Punto de venta",
                 pSrc: `${Images.Ajax_PVenta1}`,
             },
+            {
+                _idP: j++,
+                tipo: "i",
+                pTitulo: "Implementación (Ecommerce)",
+                pSrc: `${Images.Ajax_Ecommerce}`,
+            },
+            {
+                _idP: j++,
+                tipo: "v",
+                pTitulo: "Implementación Digital",
+                pSrc: 'https://www.youtube.com/embed/tcT-0dMVS5o',
+            }
         ]
     },
     {
-        _id: i++,
+        _id: 1000,
         fecha: "",
         titulo: "Areas de experiencia de Home Care",
         subtitulo: "",
@@ -689,3 +783,9 @@ export const implementaciones_home = [
     },
 ]
 
+/*
+https://youtu.be/kORYlW-WfZI - Fabuloso - Alternativa al Cloro -----------------------------
+https://youtu.be/G_80Qi1j4l8 - Colgate - Spray -----------------------------
+https://youtu.be/cSG2lGih_S8 - Colgate - Total 12 (2) -----------------------------
+https://youtu.be/tcT-0dMVS5o - AJAX -----------------------------
+*/

@@ -1,8 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Images } from '../Constant/Images';
 import "../css/Media.css";
+import axios from 'axios';
 
 const Media = () => {
+    let [info, setInfo] = useState(false);
+    const baseURL = "https://marketingjournal.kagencia.com/database/index.php"
+    const [data, setData] = useState({
+        email: ""
+    });
+
+    const peticionPost = async () => {
+        setInfo(false);
+        var f = new FormData();
+        f.append("email", data.email);
+        f.append("METHOD", "POST");
+        await axios.post(baseURL, f)
+            .then(response => {
+                setData(response.data);
+                setInfo(true);
+                console.log("Insertado .. ", info);
+            }).catch(error => {
+                console.log(error);
+            })
+    }
+
+    function handleChange(e) {
+        const newData = { ...data };
+        newData[e.target.id] = e.target.value;
+        setData(newData);
+        // console.log(newData)
+    }
     return (
         <div className="Media">
             <div id="Media" className="seccion_trends">
@@ -42,11 +70,15 @@ const Media = () => {
                     <div className="sub">
                         <img className="imgMediaBienvenida" src={Images.imgMedia7} alt="" /><br />
                         <p className="textoBienvenida">En este nuevo boletín descubrirás cada <br /> lunes tips y cursos que te ayudarán a</p>
-                        <p className="textoBienvenida                       negrita">
+                        <p className="textoBienvenida negrita">
                             mejorar tus capacidades <br /> en marketing digital.
                         </p>
                         <p className="titulo_correo">¿Aún no lo recibes? <br />Suscribete dejando tu correo aquí:</p>
-                        <input class="correoMedia" type="email" placeholder="usuario@gmail.com" />
+                        <div className="suscribirse">
+                            <input className="correoMedia" id="email" type="email" placeholder="usuario@gmail.com" onChange={(e) => handleChange(e)} value={data.email} />
+                            <button type="submit" className="btn_suscribir" onClick={() => peticionPost()}>SUSCRIIBIRME</button>
+                        </div>
+                        <h3 className={info === true ? "mostrar" : "noMostrar"}>¡Felicitaciones, ya estas suscrito!</h3>
                     </div>
                     <div>
                         <img className="imgMediaCelular" src={Images.imgMedia8} alt="" /><br />
@@ -63,3 +95,9 @@ const Media = () => {
 };
 
 export default Media;
+
+// onSubmit={(e)=> submit(e)}
+
+
+
+

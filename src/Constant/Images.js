@@ -9,7 +9,7 @@ import Flecha from "../img/right-arrow.svg";
 import error404 from "../img/404.svg";
 import cable from "../img/conect.svg";
 
-import falta from "../img/falta.jpg";
+import Vacunacion from "../img/MKTJOURNAL/Protex-vacuna.jpg";
 
 // MINIATURAS
 import Total12_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Total12-_-MKTJ.jpg";
@@ -33,6 +33,8 @@ import Clinical360_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Desodorantes
 import EresBarbara_Miniaturas from "../img/MKTJOURNAL/miniaturas/LSS-KV.jpg";
 import Fabuloso_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Fabuloso-Ultra.jpg";
 import Ajax_Miniaturas from "../img/MKTJOURNAL/miniaturas/KV-Ajax.jpg";
+import Equiti_Miniaturas from "../img/MKTJOURNAL/miniaturas/Equiti.jpg"
+import Vacunacion_Miniaturas from "../img/MKTJOURNAL/miniaturas/Protex-vacuna.jpg"
 
 // Colgate total 12
 import Total12_Principal from "../img/MKTJOURNAL/Total12/KV-Total12-_-MKTJ.jpg";
@@ -92,12 +94,15 @@ import Axion_PosterAxion from "../img/MKTJOURNAL/Axion/Axion2.jpg";
 // NATURALS
 import Naturals_Principal from "../img/MKTJOURNAL/Naturals/Colgate-Naturals.jpg";
 import Naturals_PVenta1 from "../img/MKTJOURNAL/Naturals/Naturals-Punto-venta.jpg";
+import Naturals_Ecommerce from "../img/MKTJOURNAL/Naturals/cuidadooral.jpg"
 
 // TOTAL 12 GUMS
 import Total12Gums_Aeropuerto2 from "../img/MKTJOURNAL/Total12Gums/Gums-Aeropuerto2.jpg";
 import Total12Gums_PVenta1 from "../img/MKTJOURNAL/Total12Gums/Gums-Punto-venta.jpg";
+import Total12Gums_PVenta2 from "../img/MKTJOURNAL/Total12Gums/KV-Gums(2).jpg";
 import Total12Gums_Principal from "../img/MKTJOURNAL/Total12Gums/KV-GUMS.jpg";
 import Total12Gums_Aeropuerto1 from "../img/MKTJOURNAL/Total12Gums/Gums-Aeropuerto.jpg";
+import Total12Gums_Ecommerce from "../img/MKTJOURNAL/Total12Gums/cuidadooralgums.jpg"
 
 // SPRAY
 import Spray_Principal from "../img/MKTJOURNAL/Spray/Banner-T12-Spray-750x344.jpg";
@@ -105,6 +110,9 @@ import Spray_PVenta1 from "../img/MKTJOURNAL/Spray/Spray-T12-Punt-Venta.jpg";
 import Spray_PVenta2 from "../img/MKTJOURNAL/Spray/Spray1.jpg";
 import Spray_PVenta3 from "../img/MKTJOURNAL/Spray/Spray2.jpg";
 import Spray_PVenta4 from "../img/MKTJOURNAL/Spray/Spray3.jpg";
+import Spray_Ecommerce from "../img/MKTJOURNAL/Spray/Implementacion-Spray.png";
+
+import Equiti from "../img/MKTJOURNAL/Equiti.jpg";
 
 //PERSONAL CARE
 // PROTEX DUO
@@ -141,10 +149,13 @@ import Clinical360_KeyVisual2 from "../img/MKTJOURNAL/Clinical/LSS-KV2.jpg";
 // FABULOSO
 import Fabuloso_Principal from "../img/MKTJOURNAL/Fabuloso/KV-Fabuloso-Ultra.jpg";
 import Fabuloso_PVenta from "../img/MKTJOURNAL/Fabuloso/Fabuloso-Punto-venta.jpg";
+import Fabuloso_Ecommerce1 from "../img/MKTJOURNAL/Fabuloso/fabuloao.png";
+import Fabuloso_Ecommerce2 from "../img/MKTJOURNAL/Fabuloso/FabulosoKV.png";
 
 // AJAX
 import Ajax_Principal from "../img/MKTJOURNAL/Ajax/KV-Ajax.jpg";
 import Ajax_PVenta1 from "../img/MKTJOURNAL/Ajax/Ajax-Punto-venta.jpg";
+import Ajax_Ecommerce from "../img/MKTJOURNAL/Ajax/Implementacion-ajax.png";
 
 import ExperienciaKV from "../img/MKTJOURNAL/Experiencia/experienciaKV.jpg";
 import Experiencia1 from "../img/MKTJOURNAL/Experiencia/experiencia1.jpg";
@@ -190,7 +201,8 @@ export const Images = {
     "error404": error404,
     "cable": cable,
 
-    "falta": falta,
+    "Vacunacion_Miniaturas": Vacunacion_Miniaturas,
+    "Vacunacion": Vacunacion,
 
     //MINIATURAS
 
@@ -215,6 +227,7 @@ export const Images = {
     "EresBarbara_Miniaturas": EresBarbara_Miniaturas,
     "Fabuloso_Miniaturas": Fabuloso_Miniaturas,
     "Ajax_Miniaturas": Ajax_Miniaturas,
+    "Equiti_Miniaturas": Equiti_Miniaturas,
 
     // Colgate total 12
     "Total12_Principal": Total12_Principal,
@@ -274,12 +287,15 @@ export const Images = {
     // NATURALS
     "Naturals_Principal": Naturals_Principal,
     "Naturals_PVenta1": Naturals_PVenta1,
+    "Naturals_Ecommerce": Naturals_Ecommerce,
 
     // TOTAL 12 GUMS
     "Total12Gums_Aeropuerto2": Total12Gums_Aeropuerto2,
     "Total12Gums_PVenta1": Total12Gums_PVenta1,
+    "Total12Gums_PVenta2": Total12Gums_PVenta2,
     "Total12Gums_Principal": Total12Gums_Principal,
     "Total12Gums_Aeropuerto1": Total12Gums_Aeropuerto1,
+    "Total12Gums_Ecommerce": Total12Gums_Ecommerce,
 
     // SPRAY
     "Spray_Principal": Spray_Principal,
@@ -287,6 +303,9 @@ export const Images = {
     "Spray_PVenta2": Spray_PVenta2,
     "Spray_PVenta3": Spray_PVenta3,
     "Spray_PVenta4": Spray_PVenta4,
+    "Spray_Ecommerce": Spray_Ecommerce,
+
+    "Equiti": Equiti,
 
     //PERSONAL CARE
     // PROTEX DUO
@@ -324,10 +343,13 @@ export const Images = {
     // FABULOSO
     "Fabuloso_Principal": Fabuloso_Principal,
     "Fabuloso_PVenta": Fabuloso_PVenta,
+    "Fabuloso_Ecommerce1": Fabuloso_Ecommerce1,
+    "Fabuloso_Ecommerce2": Fabuloso_Ecommerce2,
 
     // AJAX
     "Ajax_Principal": Ajax_Principal,
-    "Ajax_PVenta1": Ajax_PVenta1,    
+    "Ajax_PVenta1": Ajax_PVenta1,  
+    "Ajax_Ecommerce": Ajax_Ecommerce,  
 
     // EXPERIENCIAS DE HOME CARE
     "ExperienciaKV": ExperienciaKV,

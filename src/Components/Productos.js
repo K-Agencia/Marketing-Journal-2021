@@ -30,15 +30,15 @@ const Productos = ({ titulo, tipo }) => {
             {/* <h2>{tipo}</h2> */}
 
             {data.map(prod => (
-
+                
                 <div key={prod._id} className="p_producto">
-                    <h4 id={prod._id} className={prod._id === 22 ? "sinPublicidad" : `p_fecha ${tipo} `}>{prod.fecha}</h4>
+                    <h4 id={prod._id} className={prod._id === 1000 ? "sinPublicidad" : `p_fecha ${tipo} `}>{prod.fecha}</h4>
                     <h3 className={`p_titulo ${tipo}`}>{prod.titulo}</h3>
                     <span className="p_subtitulo">{prod.subtitulo}</span>
                     <p className="p_descripcion">{prod.descripcion}</p>
-                    <img className={prod._id === 22 ? "sinPublicidad" : "p_imgPrincipal"} src={prod.imagenP} alt="" />
-                    <img className={prod._id === 22 ? "sinPublicidad" : "p_imgPrincipal"} src={prod.imagenP2} alt="" />
-                    <h4 className={ prod._id === 7 ||  prod._id === 22 ? "p_titulo2 sinPublicidad" : "p_titulo2"}>Canales de publicidad</h4>
+                    <img className={prod._id === 1000 ? "sinPublicidad" : "p_imgPrincipal"} src={prod.imagenP} alt="" />
+                    <img className={prod._id === 1000 ? "sinPublicidad" : "p_imgPrincipal"} src={prod.imagenP2} alt="" />
+                    <h4 className={ prod._id === 7 ||  prod._id === 999 ||  prod._id === 1000 ? "p_titulo2 sinPublicidad" : "p_titulo2"}>Canales de publicidad</h4>
                     
                     <div className="p_publicidad">
                         {prod.publicidad.map(pub => (
