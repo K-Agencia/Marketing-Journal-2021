@@ -164,6 +164,8 @@ import Experiencia3 from "../img/MKTJOURNAL/Experiencia/experiencia3.jpg";
 
 // ------------------------- TRENDS -------------------------
 // ------------------------- Insights -------------------------
+import lineaDivisora from "../img/linea.png";
+
 import imgInsights1 from "../img/Insights/grafica1.jpg";
 import imgInsights2 from "../img/Insights/grafica2.jpg";
 import imgInsights3 from "../img/Insights/grafica3.jpg";
@@ -180,14 +182,17 @@ import imgInsights13 from "../img/Insights/grafica13.jpg";
 
 // ------------------------- Media -------------------------
 import imgMedia1 from "../img/Media/Media1.jpg";
-import imgMedia2 from "../img/Media/Media2.jpg";
-import imgMedia3 from "../img/Media/Media3.jpg";
-import imgMedia4 from "../img/Media/Media4.jpg";
-import imgMedia5 from "../img/Media/Media5.jpg";
-import imgMedia6 from "../img/Media/Media6.jpg";
-import imgMedia7 from "../img/Media/Media7.jpg";
-import imgMedia8 from "../img/Media/Media8.jpg";
-import imgMedia9 from "../img/Media/Media9.jpg";
+import imgMedia2 from "../img/Media/Media7.jpg";
+import imgMedia3 from "../img/Media/Media8.jpg";
+import imgMedia4 from "../img/Media/2.png";
+import imgMedia5 from "../img/Media/3.png";
+import imgMedia6 from "../img/Media/4.png";
+import imgMedia7 from "../img/Media/5.png";
+import imgMedia8 from "../img/Media/6.png";
+import imgMedia9 from "../img/Media/7.png";
+import imgMedia10 from"../img/Media/9.png"; 
+import imgMedia11 from "../img/Media/10.png";
+import imgMedia12 from "../img/Media/11.png";
 
 export const Images = {
     "Logo": LogoColgate,
@@ -359,6 +364,7 @@ export const Images = {
 
     // ------------------------- TRENDS -------------------------
     // ------------------------- Insights -------------------------
+    "lineaDivisora":lineaDivisora,
     "imgInsights1": imgInsights1,
     "imgInsights2": imgInsights2,
     "imgInsights3": imgInsights3,
@@ -383,6 +389,9 @@ export const Images = {
     "imgMedia7": imgMedia7,
     "imgMedia8": imgMedia8,
     "imgMedia9": imgMedia9,
+    "imgMedia10": imgMedia10,
+    "imgMedia11": imgMedia11,
+    "imgMedia12": imgMedia12,
 }
 
 /*

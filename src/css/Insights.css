@@ -60,13 +60,13 @@
     font-weight: 700;
 }
 
-ul {
+.seccionInsights ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-li {
+.seccionInsights li {
     background: url('../img/Insights/lista.png') no-repeat left top;
     background-size: 30px 30px;
     height: auto;

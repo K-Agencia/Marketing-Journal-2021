@@ -387,15 +387,12 @@ export const implementaciones_oral = [
                 tipo: "i",
                 pTitulo: "Implementación (Ecommerce)",
                 pSrc: `${Images.Naturals_Ecommerce}`,
-<<<<<<< HEAD
             },
             {
                 _idP: j++,
                 tipo: "v",
                 pTitulo: "Implementación (Digital)",
                 pSrc: 'https://www.youtube.com/embed/80R2vn6PDTY',
-=======
->>>>>>> 467e102c4bd116ecc92036bf1a1698df69d7e9a9
             }
         ]
     },
