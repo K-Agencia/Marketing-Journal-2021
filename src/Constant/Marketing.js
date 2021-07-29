@@ -182,7 +182,7 @@ export const innovaciones_personal = [
     {
         _id: i++,
         fecha: "Julio 2021",
-        titulo: "El Poder de Las Manos",
+        titulo: 'Campaña de Equity "El Poder de las Manos"',
         subtitulo: "Próximamente",
         descripcion: "",
         imagenMiniatura: `${Images.ManosProtex_Miniaturas}`,
@@ -228,7 +228,7 @@ export const innovaciones_personal = [
     {
         _id: i++,
         fecha: "Abril 2021",
-        titulo: "Lanzamiento Speed Stick Xtreme Night Gel 70 g y Lady Speed Stick Talc en Crema 70 g",
+        titulo: "Nuevos Tamaños de Desodorantes 70g",
         subtitulo: "",
         descripcion: "Nueva presentación de desodorantes, ahora en tubos de 70 g de fácil aplicación y prácticos de llevar",
         imagenMiniatura: `${Images.Desodorante_Miniaturas}`,
@@ -536,7 +536,7 @@ export const implementaciones_personal = [
     {
         _id: i++,
         fecha: "Enero 2021",
-        titulo: "PTX HWC Vacunación",
+        titulo: "Protex en las Jornadas de Vacunación",
         subtitulo: "",
         descripcion: "",
         imagenMiniatura: `${Images.Vacunacion_Miniaturas}`,
@@ -559,7 +559,7 @@ export const implementaciones_personal = [
     {
         _id: i++,
         fecha: "Enero 2021",
-        titulo: "PON Charcoal",
+        titulo: "Palmolive Carbón",
         subtitulo: "",
         descripcion: "",
         imagenMiniatura: `${Images.PCarbon_Miniaturas}`,
@@ -588,7 +588,7 @@ export const implementaciones_personal = [
     {
         _id: i++,
         fecha: "Enero 2021",
-        titulo: "PON Luminous Oils",
+        titulo: "Palmolive Luminous Oils",
         subtitulo: "",
         descripcion: "",
         imagenMiniatura: `${Images.PLiquido_Miniaturas}`,
@@ -664,7 +664,7 @@ export const implementaciones_personal = [
     {
         _id: i++,
         fecha: "Marzo 2021",
-        titulo: "Eres Barbara",
+        titulo: 'Campaña Lady Speed Stick "Eres Barbara"',
         subtitulo: "",
         descripcion: "",
         imagenMiniatura: `${Images.EresBarbara_Miniaturas}`,
