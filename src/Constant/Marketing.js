@@ -387,12 +387,15 @@ export const implementaciones_oral = [
                 tipo: "i",
                 pTitulo: "Implementación (Ecommerce)",
                 pSrc: `${Images.Naturals_Ecommerce}`,
+<<<<<<< HEAD
             },
             {
                 _idP: j++,
                 tipo: "v",
                 pTitulo: "Implementación (Digital)",
                 pSrc: 'https://www.youtube.com/embed/80R2vn6PDTY',
+=======
+>>>>>>> 467e102c4bd116ecc92036bf1a1698df69d7e9a9
             }
         ]
     },
@@ -794,5 +797,8 @@ https://youtu.be/kORYlW-WfZI - Fabuloso - Alternativa al Cloro -----------------
 https://youtu.be/G_80Qi1j4l8 - Colgate - Spray -----------------------------
 https://youtu.be/cSG2lGih_S8 - Colgate - Total 12 (2) -----------------------------
 https://youtu.be/tcT-0dMVS5o - AJAX -----------------------------
+<<<<<<< HEAD
 https://youtu.be/80R2vn6PDTY
+=======
+>>>>>>> 467e102c4bd116ecc92036bf1a1698df69d7e9a9
 */
