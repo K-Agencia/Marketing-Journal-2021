@@ -35,11 +35,11 @@ const Nav = () => {
                     </div>
                     <div className="navSecction Trends">
                         <div className="cabecera">
-                            <button className="n-button"><a href={`/trends`}>TRENDS</a></button>
+                            <button className="n-button"><a href={`/trends`}>TENDENCIAS</a></button>
                         </div>
                         <div className="buttons" id="btn">
-                            <button className="n-button"><a href={`/trends#Insights`}>INSIGHTS</a></button><div className="vertical-line"></div>
-                            <button className="n-button"><a href={`/trends#Media`}>MEDIA</a></button>
+                            <button className="n-button"><a href={`/trends#Insights`}>MERCADO</a></button><div className="vertical-line"></div>
+                            <button className="n-button"><a href={`/trends#Media`}>DIGITAL</a></button>
                         </div>
                     </div>
                 </div>

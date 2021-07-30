@@ -89,6 +89,17 @@
     justify-content: center;
 }
 
+.sub .seccionDegreed {
+    margin-top: 1em;
+    text-align: center !important;
+}
+
+.sub .seccionDegreed a,
+.seccionCRM div p a {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
 .imgMediaBienvenida {
     width: 70%;
     margin: 0 4em;
@@ -231,7 +242,7 @@ h3.mostrar {
     margin: 1em 0 0.2em;
 }
 
-.seccionHighlight img {
+.seccionHighlight video.video_instagram {
     width: 40%;
 }
 
@@ -265,13 +276,6 @@ h3.mostrar {
     margin-bottom: 32px;
 }
 
-.seccionBrandLifts img.imgTend {
-    width: 60px;
-    position: absolute;
-    /* bottom: 6550px;
-    right: 120px; */
-}
-
 .seccionBrandLifts div {
     display: flex;
     justify-content: space-around;
@@ -297,6 +301,25 @@ h3.mostrar {
 
 .seccionBrandLifts .BLFondo {
     width: 20%;
+    position: absolute;
+    bottom: 77em;
+    left: 45em;
+    z-index: 0;
+    opacity: 0.20;
+}
+
+.seccionBrandLifts img.BLStiker {
+    width: 4%;
+    position: absolute;
+    bottom: 77em;
+    left: 43em;
+}
+
+.seccionBrandLifts img.imgTend {
+    width: 50px;
+    position: absolute;
+    bottom: 96.5em;
+    left: 51em;
 }
 
 .seccionBrandLifts .BLStiker {
@@ -336,8 +359,8 @@ h3.mostrar {
 
 .seccionTitleColor.ln h2 {
     color: #fff;
-    font-weight: 700;
-    font-size: 2em;
+    font-weight: 500;
+    font-size: 1.9em;
     font-style: italic;
     letter-spacing: 1px;
     padding: 0.5em 0;
@@ -350,7 +373,7 @@ h3.mostrar {
     font-size: 1.2em;
 }
 
-.seccionTuHogar h2{
+.seccionTuHogar h2 {
     color: #606060;
     font-style: italic;
     font-weight: 900;
@@ -358,6 +381,91 @@ h3.mostrar {
     margin-bottom: 32px;
 }
 
+.seccionTuHogar .THtext {
+    margin: 0 auto;
+}
+
+.seccionTuHogar .THtext div {
+    margin-top: 4em;
+    width: 27em;
+}
+
+.seccionTuHogar .THtext div h3 {
+    color: #ffad00;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+.seccionTuHogar .THtext div p {
+    font-size: 1.5rem;
+}
+
+.seccionTuHogar .THtext div h3.sub {
+    color: #0a4d60;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 32px;
+}
+
+.seccionTuHogar .THtext div img.IMGsub {
+    width: 15em;
+}
+
+.seccionTuHogar .THtext .THimg {
+    width: 50%;
+    /* height: 50%; */
+    bottom: 1em;
+    position: absolute;
+}
+
+/* #0a4d60 */
+
+@media only screen and (min-width: 1600px) {
+
+    .seccionTitleColor.ln h2 {
+        margin: 0 14em;
+    }
+
+    .seccionTuHogar .THtext div {
+        width: 27em;
+        left: 4em;
+        position: relative;
+    }
+
+    .seccionTuHogar .THtext .THimg {
+        width: 40%;
+        /* height: 50%; */
+        bottom: 1em;
+        right: 18em;
+        position: absolute;
+    }
+
+    .seccionBrandLifts .BLFondo {
+        width: 20%;
+        position: absolute;
+        bottom: 80em;
+        left: 60em;
+        z-index: 0;
+        opacity: 0.20;
+    }
+
+    .seccionBrandLifts img.BLStiker {
+        width: 4%;
+        position: absolute;
+        bottom: 80em;
+        left: 81em;
+    }
+
+    .seccionBrandLifts img.imgTend {
+        width: 50px;
+        position: absolute;
+        bottom: 102.5em;
+        left: 65em;
+    }
+}
 
 @media only screen and (max-width: 480px) {
     .seccionMedia {
@@ -406,7 +514,6 @@ h3.mostrar {
         margin: 1em 0 0;
     }
 
-
     .seccionBienvenida {
         width: 100%;
         flex-direction: column;
@@ -434,7 +541,7 @@ h3.mostrar {
     }
 
     .textoBienvenida.negrita {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .textoBienvenida br {
@@ -497,5 +604,191 @@ h3.mostrar {
 
     .imgMediaFinal {
         width: 90%;
+    }
+
+    /* dsdsdsds */
+
+    .seccionCRM h2 {
+        font-size: 1.2em;
+        margin: 0 0.2em;
+    }
+
+    .seccionCRM {
+        width: 70%;
+        margin: 32px auto;
+        font-size: 1em;
+    }
+
+    .seccionCRM div {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .seccionCRM div img {
+        width: 100%;
+    }
+
+    .seccionTitleColor h2 {
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.3em;
+        font-style: italic;
+        letter-spacing: 1px;
+        padding: 0.5em 1em;
+    }
+
+    .seccionHighlight {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 1em;
+    }
+
+    .seccionHighlight h3 {
+        font-size: 1.2em;
+    }
+
+    .seccionHighlight img {
+        width: 100%;
+    }
+
+    .seccionHighlight li {
+        background: url('../img/Media/star.png') no-repeat left top;
+        background-size: 25px 20px;
+        height: auto;
+        padding-left: 30px;
+        text-align: justify;
+        margin: 15px 0;
+        font-size: 0.9em;
+    }
+
+    .seccionBrandLifts {
+        font-size: 1em;
+    }
+
+    .seccionBrandLifts h3 {
+        font-size: 1.2rem;
+    }
+
+    .seccionBrandLifts h4 {
+        font-size: 1rem;
+    }
+
+    .seccionBrandLifts div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0.1em;
+    }
+
+    .seccionBrandLifts div img {
+        width: 100%;
+    }
+
+    .seccionBrandLifts div p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .seccionBrandLifts p.sub {
+        font-size: 1em;
+    }
+
+    .seccionInstagram {
+        width: 70%;
+        margin: 32px auto;
+    }
+
+    .seccionInstagram h2 {
+        font-size: 1.2rem;
+    }
+
+    .seccionInstagram div {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 2em 0;
+    }
+
+    .seccionInstagram div img {
+        width: 100%;
+    }
+
+    .seccionInstagram div p {
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    .seccionTitleColor.ln h2 {
+        font-weight: 600;
+        font-size: 1.1em;
+        margin: 0 1em;
+    }
+
+    .seccionTuHogar .TituloDigital {
+        font-size: 1.1em;
+    }
+
+    .seccionTuHogar .THtext {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .seccionTuHogar .THtext div {
+        margin-top: 1em;
+        width: auto;
+    }
+
+    .seccionTuHogar .THtext div h3 {
+        color: #ffad00;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .seccionTuHogar .THtext div p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .seccionTuHogar .THtext div h3.sub {
+        color: #0a4d60;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 1rem;
+        margin-bottom: 32px;
+    }
+
+    .seccionTuHogar .THtext div img.IMGsub {
+        width: 100%;
+    }
+
+    .seccionTuHogar .THtext div a{
+        font-size: 0.5em;
+    }
+
+    .seccionTuHogar .THtext .THimg {
+        width: 100%;
+        position: static;
+    }
+
+    .seccionHighlight video.video_instagram {
+        width: 100%;
+    }
+    /* dfdf */
+
+    .seccionBrandLifts .BLFondo {
+        display: none;
+    }
+
+    .seccionBrandLifts img.BLStiker {
+        display: none;
+    }
+
+    .seccionBrandLifts img.imgTend {
+        display: none;
     }
 }

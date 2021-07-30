@@ -125,7 +125,7 @@ hr {
         font-weight: 700;
     }
 
-    li{
+    .seccionInsights li{
         background: url('../img/Insights/listaC.png') no-repeat left top;
         font-size: 0.8em;
         background-size: 12px 12px;
