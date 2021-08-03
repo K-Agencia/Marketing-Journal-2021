@@ -185,7 +185,7 @@ import imgMedia1 from "../img/Media/Media1.jpg";
 import imgMedia2 from "../img/Media/Media7.jpg";
 import imgMedia3 from "../img/Media/Media8.jpg";
 import imgMedia4 from "../img/Media/2.png";
-import imgMedia5 from "../img/Media/video_instagram.mp4";
+// import imgMedia5 from "../img/Media/video_instagram.mp4";
 import imgMedia6 from "../img/Media/4.png";
 import imgMedia7 from "../img/Media/5.png";
 import imgMedia8 from "../img/Media/6.png";
@@ -384,7 +384,7 @@ export const Images = {
     "imgMedia2": imgMedia2,
     "imgMedia3": imgMedia3,
     "imgMedia4": imgMedia4,
-    "imgMedia5": imgMedia5,
+    // "imgMedia5": imgMedia5,
     "imgMedia6": imgMedia6,
     "imgMedia7": imgMedia7,
     "imgMedia8": imgMedia8,

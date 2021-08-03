@@ -761,7 +761,7 @@ export const implementaciones_home = [
     {
         _id: 1000,
         fecha: "",
-        titulo: "Areas de experiencia de Home Care",
+        titulo: "Áreas de experiencia de Home Care",
         subtitulo: "",
         descripcion: "",
         imagenMiniatura: `${Images.ExperienciaKV}`,

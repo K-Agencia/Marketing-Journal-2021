@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Images } from '../Constant/Images';
 import "../css/Media.css";
 import axios from 'axios';
-import posterIMG from "../img/Media/video_instagram_Moment.jpg";
+import posterIMG from "../img/Media/video_instagram_taliana_Moment.jpg";
 
 const Media = () => {
   let [info, setInfo] = useState(false);
@@ -48,10 +48,10 @@ const Media = () => {
             <p className="textoBienvenida negrita">
               mejorar tus capacidades <br /> en marketing digital.
             </p>
-            <p className="titulo_correo">¿Aún no lo recibes? <br />Suscribete dejando tu correo aquí:</p>
+            <p className="titulo_correo">¿Aún no lo recibes? <br />Suscríbete dejando tu correo aquí:</p>
             <div className="suscribirse">
               <input className="correoMedia" id="email" type="email" placeholder="usuario@gmail.com" onChange={(e) => handleChange(e)} value={data.email} />
-              <button type="submit" className="btn_suscribir" onClick={() => peticionPost()}>SUSCRIIBIRME</button>
+              <button type="submit" className="btn_suscribir" onClick={() => peticionPost()}>SUSCRIBIRME</button>
             </div>
             <h3 className={info === true ? "mostrar" : "noMostrar"}>¡Felicitaciones, ya estas suscrito!</h3>
             <div className="seccionDegreed">
@@ -64,17 +64,17 @@ const Media = () => {
         </div>
       </div>
 
-      <img className="lineaDivisora ln" src={Images.lineaDivisora} alt="" />
+  {/*    <img className="lineaDivisora ln" src={Images.lineaDivisora} alt="" />
 
-      <div className="seccionCRM">
+       <div className="seccionCRM">
         <h2 className="TituloDigital">Próximos a lanzar nuestro programa de <br /> relacionamiento con clientes (CRM)</h2>
         <div>
           <img src={Images.imgMedia4} alt="" />
           <p>El programa de CRM nos va a permitir estar cada vez más cerca de nuestros clientes, compartir información relevante y entregar beneficios acerca de nuestros productos. <br /><br />
             Invita a tus clientes a tener en cuenta la estrategia de CRM en cada una de nuestras campañas y de esta manera poder seguir creciendo juntos nuestra base de datos. Si tienes ideas compártelas <a target="blank" href="https://forms.gle/PrKEYrBa4vDQMrax9">aquí</a>.</p>
         </div>
+      </div> */}
 
-      </div>
       <div className="seccionTitleColor">
         <h2>Campaña de Protex Face <br /> con Influenciadores </h2>
       </div>
@@ -83,12 +83,13 @@ const Media = () => {
           <h3 className="TituloDigital">Highlight</h3>
           <p>Se corrió el primer estudio en América Latina para corroborar cómo las campañas de influencers construyen sobre nuestras marcas. Identificamos:</p>
           <ul>
-            <li>Mejora significativamente en la intención de compra.</li>
+            <li>Mejora significativa en la intención de compra.</li>
             <li>Desempeño de los swipe ups en quincena.</li>
             <li>Recordación efectiva de la marca en personas que estuvieron expuestas a la campaña.</li>
           </ul>
         </div>
-        <video className="video_instagram" poster={posterIMG} src="https://imagenes.kagencia.com/MKT/video_instagram.mp4" controls></video>
+        {/* <VideoPlayer className="video_instagram" src={file}  poster={posterIMG} /> */}
+        <video className="video_instagram" poster={posterIMG} src="https://imagenes.kagencia.com/MKT/video_instagram_taliana.mp4" controls></video>
       </div>
 
       <img className="lineaDivisora" src={Images.lineaDivisora} alt="" />
