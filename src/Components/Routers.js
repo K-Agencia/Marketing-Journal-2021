@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ReactGA from 'react-ga';
 import Catalogo from './Catalogo';
 import Error from './Error';
 import Trends from './Trends';
 
 const Routers = () => {
+
+    useEffect(() => {
+        ReactGA.initialize('UA-204311468-1');
+        // To Report Page View 
+        ReactGA.pageview(window.location.pathname + window.location.search);
+      }, [])
+
     return (
         <div className="content">
             <Router>
